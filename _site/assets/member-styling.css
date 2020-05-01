@@ -80,7 +80,7 @@ p {
 .containervm {
     width: 40%;
     height: 100%;
-    background-color: purple;
+    background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px/0px;

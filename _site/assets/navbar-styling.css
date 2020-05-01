@@ -36,15 +36,20 @@
   }
 
 @media screen and (max-width: 900px) {
-  .white-navigation-bar{
+  .navigation {
     visibility: hidden;
-    z-index: -10%;
+  }
+  .white-navigation-bar {
+    height: 10%;
   }
 }
 @media screen and (min-width: 900px) {
-  .overlay, .openbtn, .closebtn, .white-bar{
+  .overlay, .openbtn, .closebtn{
     visibility: hidden;
     z-index: -100%;
+  }
+  .white-navigation-bar {
+    height: 16%;
   }
 }
 
@@ -84,14 +89,6 @@
   text-decoration: underline;
   animation-delay: 5s;
 }
-.white-bar{
-  width: 100%;
-  background-color: white;
-  display: flex;
-  padding: 5px 0;
-  height: 8%;
-
-}
 #openbar{
   padding: 10px;
   font-size: 25px;
@@ -102,71 +99,16 @@
   font-size: 30px;
   float: left;
 }
-@media screen and (max-width: 800px) and (min-width: 700px) {
-  .white-bar {
-    margin-top: -14%;
-  }
-}
-@media screen and (max-width: 920px) and (min-width: 800px) {
-  .white-bar {
-    margin-top: -12.5%;
-  }
-}
-@media screen and (max-width: 540px) and (min-width:300px) {
-  .white-bar {
-    margin-top: -20.5%;
-  }
-}
-@media screen and (max-width: 600px) and (min-width: 540px) {
-  .white-bar{
-    margin-top: -18.75%;
-  }
-}
-@media screen and (max-width: 700px) and (min-width: 600px) {
-  .white-bar{
-    margin-top: -16.75%;
-  }
-}
+
 html, body {
   height: 100%;
-}
-          
-.overlay{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.overlay-content {
-  height: 100%;
-  overflow: scroll;
-}
-
-@media screen and (max-width: 400px) and (min-width: 300px) {
-  .white-bar{
-    margin-top: -33%;
-    width: 125%;
-  }
-}
-@media screen and (max-width: 500px) and (min-width: 400px) {
-  .white-bar{
-    margin-top: -21.5%;
-  }
-}
-@media screen and (width: 414px) and (height: 736px) {
-  .white-bar {
-    margin-top: -26%;
-  }
-}
-@media screen and (width: 375px) and (height: 812px) {
-  .white-bar {
-  margin-top: -30%;
-  width: 100%;
-  }
 }
 
 .active {
   text-decoration: underline; 
+}
+#openbar {
+  float: right;
+  padding: 20px;
+  margin-top: -6rem;
 }
