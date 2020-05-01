@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP1.jpg>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> Blogger Spotlight </h3>
+                <h4 class = "author" style = "display:none;"> March 6, 2019 • Sam, Jayce and Ingrid</h4>
+                <div class = "content" style = "display:none;">
+                    <p>Our bloggers are Jayce, Sam and Ingrid! Below, they respond to some common questions regarding mental health and life in general!</p>
+
+<p>Why are you passionate about writing?</p>
+
+<p>Jayce:</p>
+
+<p>When I was in middle school, I realized how much I loved writing when I was finishing a research paper on feudalism. It was the first time I ever poured my heart and soul into every sentence I wrote, and I was so proud of what I accomplished within six pages. Throughout high school and college, I consistently wrote with the same passion, but only for academic papers. This is the first time I have full freedom to write as creatively as I can, and I’m so excited to get away from writing papers about feudalism and Roman battle tactics, and instead impact others positively through my writing.</p>
+
+<p>Ingrid:</p>
+
+<p>My mom and I moved when I was in elementary school. We didn’t have a TV in the new house, so I had to find other ways to use my time, and this is when my love of reading started to significantly develop. The experiences and journeys that I’ve been on through the writing of other people and my appreciation of the authors’ works probably had a large impact on how I want to produce written pieces. I think language is a really cool system that we have which allows us to communicate with each other. By no means am I an expert at it, but trying to pick out words and fit them together to convey the ideas in my head can be a rewarding process.</p>
+
+<p>Sam:</p>
+
+<p>I love to write. I think one of the biggest reasons why I love to write is because I am an emotional and forgetful person. Sometimes I write to clear my head or to remember what happened that day (as most often people do when they own a diary). Writing, overall, brings me peace of mind. From countless hours of writing down experiences, emotions, and thoughts, you begin to learn more about others and most importantly yourself. Writing has taught me to take care of myself. When you write, everything is in your perspective. Sometimes an opinion of yours, a story of yours, or an experience of yours; all these components can teach so much about a person. Everyday is a fulfilling learning experience and that makes writing worth it .</p>
+
+<p>What encourages you when you are going through rough times? (Ex. Book, song, quote)</p>
+
+<p>Jayce:</p>
+
+<p>For me, there’s this quote from the Bible that has seen me through some tough places in my life. It goes, “Do not fear, for I have redeemed you; I have summoned you by name; you are mine.  When you pass through the waters, I will be with you; and when you pass through the rivers, they will not sweep over you. When you walk through the fire, you will not be burned; the flames will not set you ablaze.” It’s such a good reminder that I’m never on my own.</p>
+
+<p>Ingrid:</p>
+
+<p>I am really fortunate to have family who comfort and support me when I am having a tough time. To know that they want the best for me is a blessing.</p>
+
+<p>Sam:</p>
+
+<p>Chocolate (just kidding). But in all seriousness, chocolate, Game of Thrones, and the support of my friends and my family get me through. It is important to always remember there are people and resources out there for you. Not everyday will bring happiness but seeking them out is the first step.</p>
+
+<p>Is there a time when you worked really hard for something? (And how did it pay off?)</p>
+
+<p>Jayce:</p>
+
+<p>During my sophomore year of high school, my family and I moved to New Jersey and I began going to a new school. After a series of very unfortunate events my first semester there, I basically had to study the entire curriculum of U.S. History Part I in a month. It was incredibly strenuous, both physically and mentally. Somehow the month passed, and after many tears and deep breaths in, I took the final for the class and passed with an A. Though it was a very frustrating experience in my life, I realized how much my discipline and focus improved, and so later I was able to self-study AP Psychology and gain college credit after taking the AP exam. The U.S. History I final was a huge hurdle I had to pass, but I was able to apply the skills I learned from that period in my life and use them to do very well on the AP exam, which was a blessing since I could then focus on higher-level psychology classes in college.</p>
+
+<p>Ingrid:</p>
+
+<p>I took a challenging physics class in sophomore year of college. The homework was really hard and I sort of gave up on the class. There were a few times when I just didn’t hand in homework and when the midterm came around, it was so daunting that I didn’t know where to even start studying. So I didn’t study very much and sure enough, didn’t do too well on the midterm. I met a student in the calculus class I was taking who also happened to be in the same physics class. We became friends during the course of the semester through the math class. Because we were both struggling with physics, near the end of the semester I suggested that we study together for the physics final. We met up basically every day to study for hours. And when we couldn’t study together in person, we would Skype each other to study. When there was some concept he didn’t understand, I would try to explain it to him and vice versa. Our hard work really paid off on the final and we were both able to improve our grades by a letter. This experience made me realize that even when a task seems impossible to achieve, it pays off much more to face it head on rather than to avoid it and hope the problem will get solved on its own.</p>
+
+<p>Sam:</p>
+
+<p>When I had begun teaching piano my freshman year of high school, money was my first priority. At the time I had never had a job before; I was 14 and wanted to have some spending money, and I had been playing piano for almost ten years. Little did I know that teaching piano independently was much harder than I thought. In the beginning I started off with four students. This ranged from the ages of 6-10 and they all did not know anything. I taught my lessons weekly, scheduled independently, and soon tailored each lesson plan to my individual students. Juggling high school and teaching felt exhausting. There was anime to watch, friends to hang out with, and other things to do but I dared not quit on teaching piano. This was my creation; I would further it. Thus, I made it my own personal goal to provide them with the best quality education. So much so that I was delighted to host small concerts at my house and celebrated talent shows won with the music that I had taught them. Over the course of four years, my student count went from four to thirteen. My students delighted me and that was what made it worth it. Going into teaching was hard work and certainly not what I expected, but by following through and reminding myself of my natural passion for music; It was absolutely rewarding. I would never have given up this experience for anything else.</p>
+
+<p>Hope you enjoyed our introduction to the bloggers! Be on the look out for new posts by them every three weeks!</p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/It's-a-new-dawn-(Part2)">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP9.jpg">
+                        <h5>It's a new dawn (Part 2)</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/It's-a-new-dawn">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP8.jpg">
+                        <h5>It's a new dawn</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/The-Perfect-Day">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP6.jpg">
+                        <h5>The Perfect Day</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>

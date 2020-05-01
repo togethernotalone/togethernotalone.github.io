@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP3.png>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> You Can't Control Everything </h3>
+                <h4 class = "author" style = "display:none;"> April 24, 2019 • Sam, Jayce and Ingrid</h4>
+                <div class = "content" style = "display:none;">
+                    <p>Why worrying about the past consumes us and what we can do to change our futures instead</p>
+
+<p>When things go wrong we often feel that there was something we could have done to prevent was has already happened. Maybe we could have said things differently, acted differently, or have taken extra precautions that we now know in retrospect. But that’s the thing about retrospect: you know things now only after you have gone through whatever the event may have been and therefore your extra knowledge will not change what has happened. If this is the case, then why might we blame ourselves when things go wrong? Why do we worry that we could’ve been “better”? Why do we stress so much about the past instead of looking towards the future despite how irrational it may be?</p>
+
+<p>The answer is simple: when things don’t go our way we are always our worst critics, but discontent is natural; You can’t change the past, but you can change your future.</p>
+
+<p>As Rachel Hollis, American Author, stated: “You’re not control of what life throws at you, you are in control of the fight.” After times of failure or disappointment, here are some helpful tips to look forward to life’s potential rather than look back.</p>
+
+<p>TIP #1: KNOW YOUR LIMITS</p>
+
+<p>Sometimes bad things happen to good people no matter how much you care or try but this is the natural course of life. In the end it is all about what you can control and what you can’t. Something like maintaining a good friendship or acing a test is more realistic than solving world poverty. That of course doesn’t mean one shouldn’t try! But for certain situations, the result is farther to reach on your own. It is false to believe some problems can be solved with just yourself. Everyone has their limits and that’s okay. Once released from this guilt on what we can’t do, we can focus on how to utilize our skills to help with what we can do. This is progress.</p>
+
+<p>TIP #2: REMIND YOURSELF OF THE GOOD</p>
+
+<p>You are allowed to remind yourself of the negatives in life, but also remember the good. In the times you must make decisions or work towards your goals you owe it to yourself to remind you of the things that you do well, the things that make you happy, and even if you feel like you can do this on your own there are professionals for that or you use this tip to reexamine your life; This will help you move forward. It is all about balance.</p>
+
+<p>TIP #3: DON’T LOSE SIGHT OF YOUR GOALS</p>
+
+<p>Make a list, give yourself a break, examine what you did wrong, what you did right, what could you have controlled, what could you have not controlled, do whatever you need to do to get you motivated, etc. We learn through Psychology that humans need goals to survive. Sometimes we just need to reexamine them and learn from the past to better your future actions.</p>
+
+<p>TIP #4: ASK FOR HELP</p>
+
+<p>Support from family and friends vary from person to person, however, if you feel lost seek help from the people directly related to the problem or obstacle. Ex: Seek guidance from the professor of the class you’re failing or speak to a Mental Health counselor if you’ve been feeling depressed. Steps, even small ones, will lead you further to the changes you desire.</p>
+
+<p>TIP #5: PATIENCE IS KEY</p>
+
+<p>Lastly, after you begin to know yourself patience is key. Even when you try your hardest, there will still be obstacles that might set you back. It’s okay to be upset, angry, hurt, or sad, however fast or slow, life moves on. Happiness cannot be guaranteed, but the opportunity of pursuit is always there.</p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Looking-for-the-Silver-Lining">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP10.jpg">
+                        <h5>Looking for the Silver Lining</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Self-Care-Lists">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP7.jpg">
+                        <h5>Self-Care Lists</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Plastered-Smiles">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP2.jpg">
+                        <h5>Plastered Smiles</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>

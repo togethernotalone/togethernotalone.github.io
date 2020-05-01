@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+.info li {
+  list-style-type: none;
+  margin-left: -5%;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+}
+.main-container {
+  margin: 0.25in;
+  background-color: rgb(255, 255, 255);
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  margin-left: 50px;
+}
+.row {
+  margin: 0 0;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pic img {
+height: auto;
+width: 100%;
+vertical-align: middle;
+}
+
+.pic {
+  width: 100%;
+}
+.sum {
+  margin: auto;
+}
+
+.p-ti {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.p-au, .sum{
+  font-family: 'Muli', sans-serif;
+  text-align:center;
+}
+@media screen and (max-width: 750px) {
+  .column {
+    width: 90%;
+    position: relative;
+    margin:auto;
+    padding: 20px;
+    margin-right: -5%;
+}
+.card{
+  overflow:hidden;
+}
+}
+@media screen and (max-width: 1000px) and (min-width: 750px) {
+  .column {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 300px) {
+    body {
+       background: #add8e6;
+    }
+}

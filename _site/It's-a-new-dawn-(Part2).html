@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP9.jpg>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> It's a new dawn (Part 2) </h3>
+                <h4 class = "author" style = "display:none;"> July 21, 2019 • Jayce</h4>
+                <div class = "content" style = "display:none;">
+                    <p>Josiah and I continued our conversation as we touched on the stigma of men displaying vulnerability, especially in terms of seeking mental health treatment.</p>
+
+<p><strong>What is your definition of mental health?</strong></p>
+
+<p>For me personally, the word mental health itself does not mean a disorder or happiness. It means the wellbeing of your psychological state, just as physical health is considered the wellbeing of your body.</p>
+
+<p><strong>How do you think masculinity is viewed in America?</strong></p>
+
+<p>I feel like over the decades, the word masculinity has changed. In the 1960’s and the 1970’s, it had connotations of the man being the breadwinner and head of the household, while the women stayed at home, taking care of the children. We’re beginning to let go of these stereotypes now though. Instead however, another harmful ideal for males is rising, which is hyper masculinity. Its presence is everywhere because of how media glorifies it through video games, music and social media. Especially because of social platforms, much more toxic masculinity is pumped out for followers to share and like. Men feel like they need to conform to these standards, and as a result, they can’t display emotions or have deep conversations without appearing to be ‘gay’. The alpha male figure is exalted in music, sports, TV shows and in society in general, which hinders the emotional connections men can have with other men especially, as well as women.</p>
+
+<p><strong>How does toxic masculinity affect the mental state of men?</strong></p>
+
+<p>It has very subconscious effects. You don’t talk about your day or how you’re feeling, you just deal with it alone. You’re not necessarily actively thinking “Oh, I can’t say this, I’ll seem weak.” However, mental health should be viewed with the same significance as physical health. If you experienced a traumatic sports injury, you would seek help from a specialist in the hospital as well as from a physical therapist afterwards to regain the strength you lost as a result of the damage. However, because you cannot physically see the effects of a mental crisis, you are expected to deal with it alone. You may be inwardly collapsing, all while putting on a strong front externally for the rest of the world to see.</p>
+
+<p><strong>What other factors do you think contributes to the decline of mental health?</strong></p>
+
+<p>There is a problem when it comes to socioeconomic class. For those who are on the lower end of the scale, they may be struggling each day to provide a roof and food to sustain themselves and their family. They simply don’t have the resources to reach out for support. Unfortunately, sometimes it is the people who don’t have access to these means who need it the very most, especially since they are struggling to keep moving forward in spite of the enormous burdens they are facing. For example, if someone is diagnosed with schizophrenia but cannot afford treatment, there is no other option other than admitting themselves into the hospital once their condition becomes extraordinarily severe because of their limited funds. Minority cultures also encounter many challenges in regards to seeking mental health resources. There may be disagreements between parents and children regarding the necessity of these treatments. Because there many not have even been discussions regarding mental health since it is considered taboo in many cultures, many parents, especially immigrants, grew up silently enduring ordeal after ordeal. As a result, they may not understand why their children cannot simply face their obstacles head-on, without the help of mental health professionals.</p>
+
+<p><strong>How as a nation do you think we need to address this mental health crisis?</strong></p>
+
+<p>In America, we do not necessarily have a shortage of mental treatment programs, but we do have a problem in terms of affordability and access. However, if we advocated for the proper resources, as well as championed for communities who are in need of mental health education and support, we will be setting up a better future for ourselves.</p>
+
+<p>Throughout our friendship, Josiah has opened up my eyes to the significance of mental wellness. I never realized the unique challenges men face when it comes to overcoming the stigma of seeking treatment. As an advocate for mental health himself, he has encouraged and supported countless people through their struggles with his story. During our discussion, I was reminded of a spoken word poem I heard regarding male relationships. Joseph Solomon, a poet and songwriter, spoke about the vulnerability that is often not seen among men, especially in American culture, and he also personally connected to the concept of male affection in the context of his faith. If you have a chance, definitely check out his video, Foreign Masculinity.</p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Looking-for-the-Silver-Lining">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP10.jpg">
+                        <h5>Looking for the Silver Lining</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/It's-a-new-dawn">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP8.jpg">
+                        <h5>It's a new dawn</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/The-Perfect-Day">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP6.jpg">
+                        <h5>The Perfect Day</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>

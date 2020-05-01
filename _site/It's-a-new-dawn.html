@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP8.jpg>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> It's a new dawn </h3>
+                <h4 class = "author" style = "display:none;"> June 16, 2019 • Jayce</h4>
+                <div class = "content" style = "display:none;">
+                    <p><em>Names changed for privacy.</em></p>
+
+<p>My friend Josiah has overcome mountains in his life that seemed impossible to ever climb. Today I want to share his story.</p>
+
+<p><strong>Tell me about yourself.</strong></p>
+
+<p>My name is Josiah and I was born in South Jersey. My parents are from Gujarat, India, and I am first generation, which means that I am the first one in my family  to be born in the U.S. and I am the first one to go to college as well. I am also currently a nursing major. Unfortunately, when I was a freshman in high school, my dad passed away. That’s when I began to have depressive symptoms, which I don’t necessarily equate with clinical depression yet at this stage in my life.</p>
+
+<p><strong>How did college affect your mental health?</strong></p>
+
+<p>After high school, I was accepted into Rutgers University as a psychology major. Just a couple days after graduation, I moved into college to begin a summer program there. I noticed my symptoms were getting worse, but I paid no attention to it. When fall semester began, depression overwhelmed me. Because I finally had a chance to sit down and process everything that I have been through the past few years, I was flooded with burdening symptoms. Eventually, I decided to visit the University’s counseling services, but I felt the counselor I was assigned to was very condescending and wasn’t truly listening to me. I feel like much of that revolves around the stigma of mental health, and how it isn’t viewed as significantly as physical wellness.</p>
+
+<p><strong>What consequences did depression have on your academics?</strong></p>
+
+<p>As an American Indian, I have always worked hard to attain good grades in school, but at this point I was doing poorly in my classes as I struggled from day to day. As I went home for the summer after completing my first year of college, I tried to change many variables in my life to resolve the issue. However, my lifestyle changes clearly didn’t work as I never addressed the root cause of my depression. My second year of college came by and passed just as my first one, except now I was aware that I had depression. I was still searching for the reason why I was suffering like this though. I decided that my problem was Rutgers and the environment of the school itself. I decided to transfer to Rowan College of Burlington County so I would be closer to home, and this way I could also pursue nursing, which I have always dreamed of studying even back in high school. Once again, I did not come to terms with what the true matter was. In spite of all this change, my symptoms still worsened. That’s when I decided to get help.</p>
+
+<p><strong>How did you begin the process of seeking help and support?</strong></p>
+
+<p>I went to a psychotherapist in Jersey, but I was incredibly hesitant to tell her what I was truly going through. After a few sessions though, she told me I needed more help than she could give me. She recommended a more intensive route, specifically an inpatient mental health facility. However, I was uncomfortable as soon as I got there due to financial reasons, since the treatment is very expensive and insurance unfortunately does not cover much. I did not want to go in debt to get better, since I knew that if I were to be financially unstable, my mental health would only spiral downwards. Even though I stopped going, I knew I needed more resources if I wanted to eventually heal. I began to go to a psychiatrist. However, if I truly did want to overcome my mental health battles, I realized that I would have to be honest and upfront with what I was going through. I could spend thousands of dollars on sessions, but if I was not going to open up, then I would never get better. She officially diagnosed me with major depressive disorder and anxiety. Surprisingly, it was a relief to finally be diagnosed and understand what was happening to me. Being given label helped me realize that I’m not crazy and that I wasn’t the only one facing this.</p>
+
+<p><strong>What is your current mental health status?</strong></p>
+
+<p>Today, I consider myself 90% better. I still use coping mechanisms daily, and I have begun to understand that relapses will still happen. It’s not something like braces, where after the issue is fixed, you never have to give it another thought again. It is something to continually work towards, so don’t be defeated, and instead see how far you’ve come. Appreciate you’re still here, and take life day by day, hour by hour or minute by minute, however you need to keep moving forward.</p>
+
+<p>(Title taken from lyrics of Nina Simone’s “Feeling Good”)</p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Looking-for-the-Silver-Lining">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP10.jpg">
+                        <h5>Looking for the Silver Lining</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/It's-a-new-dawn-(Part2)">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP9.jpg">
+                        <h5>It's a new dawn (Part 2)</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/The-Perfect-Day">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP6.jpg">
+                        <h5>The Perfect Day</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>

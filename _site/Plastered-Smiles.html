@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP2.jpg>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> Plastered Smiles </h3>
+                <h4 class = "author" style = "display:none;"> March 24, 2019 • Jayce</h4>
+                <div class = "content" style = "display:none;">
+                    <p>It was a blazing Sunday afternoon in early September, during that time of the year when summer won’t let go so autumn can arrive. I was standing outside after my church service, looking for my cousin among the throngs of people. Hot and sticky from the heat as well as the crowd, I was trying to allay the high temperatures with a cup of iced tea. While I was balancing my styrofoam cup, which was filled to the brim with the sweet tea, I didn’t realize there was a concrete wheelchair ramp behind me. When I turn around so I can look for her from another angle, I trip over the incline of the ramp, and fly across the concrete landing in the grass on the other side. Iced tea spilt all over me and my mind is racing at 97mph as I wonder why how I ended up lying on the grass. Still, as my cheeks burn with humiliation, I salvage what little shattered pride I have left and try to jump up to signal to the amassing crowds that seemed to double in size that I couldn’t have been better. Through pain and some serious grit, I pop up like a jack-in-the-box, with a smile plastered to my face to let everyone know I escaped the fall without serious injury. The swarm of Indian women close in on me, clucking over my ripped pants and assessing for any injuries. I continue smiling through the pain and repeat “I’m okay, fine, I’m alright” nonstop so I can get away from the people merely trying to help me. Meanwhile as I maintain my happy demeanor, I can feel both my knees stinging from open cuts. Before blood can stain my pants, I manage to thank everyone for their kindness and sympathy, so I can hobble straight to the bathroom, where I pulled up my pants to assess the damage by myself. Just as I suspected, both my knees were scraped and torn from the jagged concrete, bruised purple with blood running down from the broken skin down to my shins. I mopped up the blood with wet paper towels as best as I could, while wrapping more paper towels around the cuts to create a makeshift bandage. I winced through the pain, thinking about how if I had just let myself be taken care of, my injuries would have been properly cleaned and treated with a first aid kit.</p>
+
+<p>The moral of the story: we’ve all been there before. We’ve gone through the times when we fall and bruise ourselves pretty badly, whether mentally or emotionally, and all we want to do is cover the open wounds so no one else can see. We tack a smile on our face to signal to the rest of the world that “I’m fine, I’m good, I’m doing absolutely wonderfully” despite these thoughts being completely false. Even though many times  the people around us initially reach out to check up on us, we do such a good job convincing the ones we love that we couldn’t be better. As a result, we are left alone, despite the fact those are the moments we need our community surrounding us the most. Meanwhile, our cuts sting and our tears fall as we tenderly try to soothe the pain, wondering if we’ll ever heal. However, healing comes with support. Healing comes with vulnerability and compassion and encouragement. Instead of burying the hurt and trying to seem like you have it all put together, I challenge you to let yourself open up a little bit to someone you know you can trust. And you don’t have to narrate your entire life story right away. It could be something as small as recounting a bad day, but even that is self-care. And eventually that artificial smile you used to put on just to chase away concerns? One day it will be replaced with a genuine one.</p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Looking-for-the-Silver-Lining">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP10.jpg">
+                        <h5>Looking for the Silver Lining</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Self-Care-Lists">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP7.jpg">
+                        <h5>Self-Care Lists</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/You-Can't-Control-Everything">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP3.png">
+                        <h5>You Can't Control Everything</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>

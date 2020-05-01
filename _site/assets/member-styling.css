@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+.member-card {
+    width: 70%;
+    height: 65%;
+    margin: 75px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.description {
+    width: 100%;
+    height: 100%;
+    margin-left: 120%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Hepta Slab', serif;
+    font-size: 35px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    text-align: left;
+    font-size: 12.5px;
+}
+
+.header {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 50px;
+}
+.containera {
+    width: 40%;
+    height: 100%;
+    background-image: url(Akhila.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containerm {
+    width: 40%;
+    height: 100%;
+    background-image: url(Monika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containersa {
+    width: 40%;
+    height: 100%;
+    background-image: url(SamA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containervm {
+    width: 40%;
+    height: 100%;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containert {
+    width: 40%;
+    height: 100%;
+    background-image: url(Tyra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containersm {
+    width: 40%;
+    height: 100%;
+    background-image: url(Sneha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containerj {
+    width: 40%;
+    height: 100%;
+    background-image: url(Jayce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containerdd {
+    width: 40%;
+    height: 100%;
+    background-image: url(Dina.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containerka {
+    width: 40%;
+    height: 100%;
+    background-image: url(Kia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containersp {
+    width: 40%;
+    height: 100%;
+    background-image: url(Sanjana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+.containershm {
+    width: 40%;
+    height: 100%;
+    background-image: url(Shivani.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px/0px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    .containera, .containerm, .containersa, 
+    .containersaf, .containert, .containersm, 
+    .containeri, .containerj, .containersp, 
+    .containersd, .containershm, .containerka,
+    .containerdd, .containervm{
+        width: 100%;
+    }
+    .description {
+        width: 0%;
+        height: 0%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 300px) {
+    body {
+       background: #add8e6;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .description p {
+        font-size: 14px;
+    }
+    .description h2 {
+        font-size: 15px;
+    }
+}

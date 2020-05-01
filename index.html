@@ -1,0 +1,67 @@
+---
+title: Together Not Alone
+---
+
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/index-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+    <body>
+    {%include navbar.html%}
+    <div class = "nptext">
+        <h2> Together Not Alone </h2>
+        <p> 
+            We provide resources and support for those battling <br>
+            mental health through sharing experiences and <br>
+            bringing awareness to the community.
+        </p>
+    </div>
+    <div class = "row">
+        <div class = "column">
+            <div class = "card blue">
+                <img src = "/assets/calendar.png" alt = "Calendar of Events" class = "c1">
+                <p class = "cinfo">
+                    We are currently having interviews for our Douglass chapter. <br>
+                    Message us if interested.
+                </p>
+            </div>
+        </div>
+        <div class = "column">
+            <div class = "card teal">
+                <img src = "/assets/blog.png" alt = "Blog" class = "b1">
+                <p class = "binfo"> 
+                    Input latest blog posts here.
+                    <br>
+                    Blah, I'm a blog post.
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class = "column">
+            <div class = "card purple">
+                <img src = "/assets/donation.png" alt = "Donation" class = "d1">
+                <p class = "dinfo">
+                    Click me to give back and make a meaningful
+                    difference in the lives of others.
+                </p>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    <script>
+    $(document).ready(function(){
+        $("div").fadeIn(1500)
+        $("div").animate({
+            opacity: '1.25'
+        });
+    });
+</script>
+</html>

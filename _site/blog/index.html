@@ -1,0 +1,289 @@
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset = "utf-8">
+      <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+      <link rel = "stylesheet" href = "/assets/blog-styling.css">
+      <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+    <div class="animsition"
+  data-animsition-in-class="fade-in-left-sm"
+  data-animsition-in-duration="1000"
+  data-animsition-out-class="fade-out-left-sm"
+  data-animsition-out-duration="800">
+    <div class = "main-container">
+      <p class = "header"> Articles </p>
+      
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/Looking-for-the-Silver-Lining">
+              <div class = pic>
+            <img src = /assets/BP10.jpg>
+          </div>
+      <h1 class = "p-ti">Looking for the Silver Lining</h1>
+      <p class = "p-au"> November 10, 2019 • Ingrid
+      </p>
+      <p class = "sum"> Ingrid interviews her friend, Elle, who was recently awarded a PhD in physics, and asks her about her personal struggles with mental health.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/It's-a-new-dawn-(Part2)">
+              <div class = pic>
+            <img src = /assets/BP9.jpg>
+          </div>
+      <h1 class = "p-ti">It's a new dawn (Part 2)</h1>
+      <p class = "p-au"> July 21, 2019 • Jayce
+      </p>
+      <p class = "sum"> Jayce continues her conversation with Josiah, delving into stigmatized topics such as masculinity in America.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/It's-a-new-dawn">
+              <div class = pic>
+            <img src = /assets/BP8.jpg>
+          </div>
+      <h1 class = "p-ti">It's a new dawn</h1>
+      <p class = "p-au"> June 16, 2019 • Jayce
+      </p>
+      <p class = "sum"> Jayce shares the motivational story of Josiah, her friend, and how he overcame his struggles.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/Self-Care-Lists">
+              <div class = pic>
+            <img src = /assets/BP7.jpg>
+          </div>
+      <h1 class = "p-ti">Self-Care Lists</h1>
+      <p class = "p-au"> May 25, 2019 • Sam, Ingrid and Jayce
+      </p>
+      <p class = "sum"> Our bloggers provide tips on how to practice self-care despite a busy, hectic schedule.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/The-Perfect-Day">
+              <div class = pic>
+            <img src = /assets/BP6.jpg>
+          </div>
+      <h1 class = "p-ti">The Perfect Day</h1>
+      <p class = "p-au"> May 20, 2019 • Akhila
+      </p>
+      <p class = "sum"> Akhila shares a narrative about how a perfect day can go awry because of one's negative thoughts.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/The-End-is-Nigh">
+              <div class = pic>
+            <img src = /assets/BP5.png>
+          </div>
+      <h1 class = "p-ti">The End is Nigh</h1>
+      <p class = "p-au"> May 15, 2019 • Akhila
+      </p>
+      <p class = "sum"> Akhila shares a moving story about coming to terms with anxiety and altering one's thought process about mental health.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/Depression-and-ADHD">
+              <div class = pic>
+            <img src = /assets/BP4.png>
+          </div>
+      <h1 class = "p-ti">Depression and ADHD</h1>
+      <p class = "p-au"> May 11, 2019 • Ingrid
+      </p>
+      <p class = "sum"> Ingrid shares a reflective interview with a friend who realized she had ADHD after a battle with depression.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/You-Can't-Control-Everything">
+              <div class = pic>
+            <img src = /assets/BP3.png>
+          </div>
+      <h1 class = "p-ti">You Can't Control Everything</h1>
+      <p class = "p-au"> April 24, 2019 • Sam, Jayce and Ingrid
+      </p>
+      <p class = "sum"> Our bloggers provide tips on how to nurture acceptance and self-love on a daily basis.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/Plastered-Smiles">
+              <div class = pic>
+            <img src = /assets/BP2.jpg>
+          </div>
+      <h1 class = "p-ti">Plastered Smiles</h1>
+      <p class = "p-au"> March 24, 2019 • Jayce
+      </p>
+      <p class = "sum"> Jayce talks about a life-changing moment she had at church, and reflects upon how it affected her perception of the world.</p>
+</a>
+</div>
+</div>
+
+      <div class = "row">
+        <div class = "column">
+          <div class = "card">
+            <a href="/Blogger-Spotlight">
+              <div class = pic>
+            <img src = /assets/BP1.jpg>
+          </div>
+      <h1 class = "p-ti">Blogger Spotlight</h1>
+      <p class = "p-au"> March 6, 2019 • Sam, Jayce and Ingrid
+      </p>
+      <p class = "sum"> Our bloggers are Jayce, Sam and Ingrid! Below, they respond to some common questions regarding mental health and life in general! (From previous team)</p>
+</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
+<script>
+    $(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    loading: true,
+    loadingParentElement: 'body', 
+    loadingClass: 'animsition-loading',
+    loadingInner: '', 
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+})
+</script>
+</body>
+</html>

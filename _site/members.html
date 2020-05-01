@@ -1,0 +1,419 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/member-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab|Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+    <body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+    <div class="animsition"
+  data-animsition-in-class="zoom-in"
+  data-animsition-in-duration="1000"
+  data-animsition-out-class="zoom-out"
+  data-animsition-out-duration="800">
+    <div class = "member-card">
+        <div class = "containera">
+            <div class = "description">
+                <h1> <small> Akhila Manthena </small> </h1>
+                <h2> Co-Director </h2>
+                <p> Akhila is a <b> Biomathematics</b> major,
+                graduating May 2020. 
+                <br>
+                <br>
+                Hobbies/Involvement: She contributes to RHA, RUPA, Hindu Student Council.
+                She is a blogger for the SAS Honors Program and a researcher in the Center for Alcohol Studies.
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "I believe that our senses and our perspective of the world are processed in our mind.
+                So our mental health affects the lens in which we see the world and ultimately that becomes our reality.
+                If we take care of ourselves, we can live with happiness and clarity."
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containerm">
+            <div class = "description">
+                <h1> <small> Monika Baskaran </small> </h1>
+                <h2> Co-Director </h2>
+                <p> Monika is a <b> Public Health </b> major, 
+                with a <b> Health and Society </b> minor, graduating May 2020.
+                <br>
+                <br>
+                Hobbies/Involvement: She is involved in ESG, NJPHA. 
+                She is a Barbara Voorhees Mentor and Assistant Dance Teacher.
+                In her free time, Monika is found reading, journaling, meditating,
+                dancing and listening to podcasts!
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "Mental Health impacts every aspect of my daily life.
+                It affects my thoughts, emotions, and how I face stress.
+                Through this organization, I want to guide others to a positive mental health path."
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containersa">
+            <div class = "description">
+                <h1> <small> Samantha Ayudant </small> </h1>
+                <h2> Events Coordinator </h2>
+                <p> Sam is a <b> Psychology </b> major, with a 
+                <b> Health and Society </b> minor, graduating May 2020.
+                <br>
+                <br>
+                Hobbies/Involvement: She loves reading!
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "As a Psychology major, I plan on becoming a psychologist, so mental health is 
+                a priority to me. I wish to use my knowledge to give back to those in need."
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containerdd">
+            <div class = "description">
+                <h1> Dina Doctoroff </h1>
+                <h2> Public Relations Coordinator </h2>
+                <p> Dina is a <b> Psychology </b> major graduating May 2022. 
+                <br>
+                <br>
+                Hobbies/Involvement: She is active within Rutgers Hillel, and
+                a part of the SCREAM Theater and the SCREAM Productions Marketing Team.
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "Mental health is important to me because it influences all aspects of our lives. 
+                If your mental health is impaired, it’s hard to function normally and complete daily tasks. 
+                It’s important to erase the negative stigma that comes with mental 
+                health issues so everyone can get the proper treatment and care they need. "
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containert">
+            <div class = "description">
+                <h1> Tyra Foster </h1>
+                <h2> Public Relations Coordinator </h2>
+                <p> Tyra is an <b> Information Technology and Informatics (ITI) </b> major,
+                with a minor in <b> Chinese</b>, graduating May 2020. 
+                <br>
+                <br>
+                Hobbies/Involvement: Tyra loves to cook. She's always trying out new
+                recipes and testing them out on her friends. She's passionate about
+                traveling to new places. She does yoga and dances in her free time as well.
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "Mental health is important because there's a stigma that talking
+                about mental health is bad. I believe that
+                talking about it is the only way to help everyone in the long run.
+                We have to bring awareness to not only the bad days but the good ones too."
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containersm">
+            <div class = "description">
+                <h1> <small> Sneha Manikandan </small> </h1>
+                <h2> Public Relations Coordinator </h2>
+                <p>
+                    Sneha is a <b> Cell Biology and Neuroscience (CBN)</b> major,
+                    with a <b> Computer Science </b> minor, graduaing May 2020.
+                    <br>
+                    <br>
+                    Hobbies/Involvement: She likes to read! You'll always find her curled
+                    up with a good book.
+                    <br>
+                    <br>
+                    Why is Mental Health Important to You?
+                    <br>
+                    "Mental health is an ubiquitous issue that is very often overlooked.
+                    I think it's important to bring awareness to it so people can be health 
+                    both physically and mentally."
+                 </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containerj">
+            <div class = "description">
+                <h1> <small> Jayce Palamattam </small></h1>
+                <h2> Blogger </h2>
+                <p>
+                    Jayce is a <b> Nursing </b> major, graduating May 2020.
+                    <br>
+                    <br>
+                    Hobbies/Involvement: She is a nursery school teacher
+                    at her local church. She also works as an optometric technician at America's Best.
+                    <br>
+                    <br>
+                    Why is Mental Health Important to You?
+                    <br>
+                    "Mental health is an issue that affects every single person
+                    at some point in their lives. Not only have I gone through anxiety, 
+                    but I have also watched loved ones go through the worst seasons of their lives 
+                    because of depression.
+                    I remember feeling so helpless at the time.
+                    When we see someone struggling, we need to lift them up, which is something that 
+                    all of us can do together."
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containerka">
+            <div class = "description">
+                <h1> <small> Kia Ansine </small></h1>
+                <h2> Newsletter Editor </h2>
+                <p>
+                    Kia is an <b> Exercise Science </b> major 
+                    graduating Fall 2021.
+                    <br>
+                    <br>
+                    Hobbies/Involvement: On campus, Kia is a part of the Honors
+                    College Wellness Committee, Letters to Strangers and
+                    the Rutgers Chapter of North American Disease Intervention.
+                    <br>
+                    <br>
+                    Why is Mental Health Important to You?
+                    <br>
+                    "Mental health is important to me, because it influences our thoughts, 
+                    perception, and attitude about our lives. Even though we may not be able to 
+                    control what happens to us, we can be better able to cope with 
+                    challenges if we are given access to quality mental wellness resources."
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class = "member-card">
+            <div class = "containervm">
+            <div class = "description">
+            <h1> <small> Varsini M. </small></h1>
+            <h2> Podcast Editor </h2>
+            <p>
+                Varsini is a <b> Biology</b> major graduating May 2020.
+                <br>
+                <br>
+                Hobbies/Involvement: Varsini loves to read and 
+                has a passion for photography.
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "Mental health affects every aspect of our lives and everyone experiences it. 
+                Poor mental health can even cause simple but vital tasks such as sleeping or eating 
+                to be difficult. It is so important to recognize the symptoms, raise awareness, and 
+                provide a space for those with mental health problems to share 
+                so they can get the help they need."
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containersp">
+            <div class = "description">
+                <h1> <small> Sanjana Pendharkar </small> </h1>
+                <h2> Web Designer </h2>
+                <p> 
+                    Sanjana is a <b> Computer Science </b> major, with a minor in <b>Biology</b>,
+                    graduating May 2021.
+                    <br>
+                    <br>
+                    Hobbies/Involvement: Sanjana is a Global Village
+                    Ambassador for the Business/Entrepreneurship House.
+                    In her free time, she is found bonding with others
+                    over code at hackathons.
+                    <br>
+                    <br>
+                    Why is Mental Health Important to You?
+                    <br>
+                    "Mental health remains a stigmatized issue that 
+                    is regarded less serious than a physical illness because it cannot be seen.
+                    Depression and anxiety rates have soared amongst college students,
+                    making it a priority to address within the Rutgers community."
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class = "member-card">
+        <div class = "containershm">
+            <div class = "description">
+            <h1> Shivani Mehra </h1>
+            <h2> Senior Executive Advisor </h2>
+            <p>
+                Shivani graduated from Rutgers in May 2018,
+                with a dual <b> Genetics and Psychology </b> degree.
+                <br>
+                <br>
+                Hobbies/Involvement: Shivani was involved in research at 
+                Rutgers and Columbia. She was active in Alpha Gamma Delta, TRIMS
+                Magazine, Douglass Governing Council, Circle K, Rutgers Academic
+                Support Services and the Eagleton Institute of Politics.
+                <br>
+                <br>
+                Why is Mental Health Important to You?
+                <br>
+                "Mental health is important because it affects everyone at someone
+                point in their lives. It is important to practice self-care,
+                otherwise, we would not be able to achieve happiness in our lives."
+            </p>
+        </div> 
+        </div>
+    </div>
+    </div>
+    <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
+    <script>
+    $(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    loading: true,
+    loadingParentElement: 'body', 
+    loadingClass: 'animsition-loading',
+    loadingInner: '', 
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+})
+</script>
+    </html>

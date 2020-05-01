@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/post-styling.css">
+        <link rel = "stylesheet" href = "/assets/tagbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <html lang = "en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+        <div class ="white-navigation-bar">
+        <nav class = "navigation">
+           <a href = "/index">
+               <img src = "/assets/our-logo.jpg" alt = "Together Not Alone"
+               class = "thislogo">
+           </a>
+           <ul class = "main-links">
+               <li class = "about-us">
+                   <a href = "/about">
+                       About
+                   </a>
+               </li>
+
+               <li class = "members">
+                   <a href = "/members">
+                       Members
+                   </a>
+               </li>
+
+               <li class = "events">
+                   <a href = "/events">
+                       Events
+                   </a>
+               </li>
+
+               <li class = "ourblog">
+                   <a href = "/blog">
+                       Blog
+                   </a>
+               </li>
+        
+               <li class = "donate-box">
+                   Donate
+                </li>
+           </ul>
+        </nav>
+    </div>
+    <span class = "target"></span>
+    <div class = "overlay" id = "m-nav" >
+        <span onClick = "closeNav()"><i class="fa fa-times" id = "closebtn"> </i></span>
+        <nav class = "overlay-content">
+            <a href = "/index"> Home </a>
+            <a href = "/about"> About </a>
+            <a href = "/members"> Members </a>
+            <a href = "/events"> Events </a>
+            <a href = "/blog"> Blog </a>
+            <a> Donate </a>
+        </nav>
+    </div> 
+    <div class = "white-bar">
+    <div onClick = "openNav()" class = "openbtn"><i class="fa fa-bars" id = "openbar"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+        function openNav() {
+            document.getElementById("m-nav").style.width="100%";
+        }
+        function closeNav() {
+            document.getElementById("m-nav").style.width="0%";
+        } 
+</script>
+<script>
+    const links = document.querySelectorAll(".navigation a");
+    const pictureid = document.querySelector(".thislogo");
+    
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', mouseEnter);
+    }
+    
+function mouseEnter() {
+    if (!this.parentNode.classList.contains("active")) {
+        for (let i = 0; i < links.length; i++) {
+            if (links[i].parentNode.classList.contains("active")) {
+                links[i].parentNode.classList.remove("active");
+                }
+                links[i].style.opacity = "0.55";
+                }
+  }
+this.style.opacity = "1.00";
+};
+</script>
+
+        <div class = "cover" style = "display:none;">
+            <img class = "m-img" src = /assets/BP7.jpg>
+        </div>
+            <div class = "container" style = "display:none;">
+                <h3 class = "title" style = "display:none;"> Self-Care Lists </h3>
+                <h4 class = "author" style = "display:none;"> May 25, 2019 • Sam, Ingrid and Jayce</h4>
+                <div class = "content" style = "display:none;">
+                    <p>The idea of self-care conjures up images of tranquil massages, visits to the beach and painting a lovely masterpiece on a canvas while sipping wine. Though these activities are incredibly appealing, self-care itself is defined as  “the practice of taking an active role in protecting one’s own well-being and happiness, in particular during periods of stress” (Oxford Dictionary). Self-care does not have to be glamorous. It does not have to be instagrammable. All it needs to be is something that you do, for you, and for your mental wellness. And it will look completely different for each person. It could be a Netflix and chill night, or a chance to finish that book, or even something as simple as a skincare routine, as long as it gives you a moment to breathe and reclaim the day.</p>
+
+<p>Sam</p>
+
+<p>1) <b>Socializing</b>: Catching up with friends, family, or meeting new people. Levels of sociability may vary between person to person but even just a little outreach might brighten your day.</p>
+
+<p>2) <b>Deep breaths</b>: Often when we’re angry we forget to breathe. Be gentle on yourself, take some time to not think about your stress and let it settle before your process it.</p>
+
+<p>3) <b>Baths! Baths! Baths!</b>: Don’t you feel much better after a hot bath or shower? Oftentimes, feeling clean helps you feel refreshed and when refreshed you feel less stressed.</p>
+
+<p>4) <b>Favorite food or favorite tv show binge</b>: Warning! Moderation is still key haha.</p>
+
+<p>5) <b>Realizing it’s okay to be alone sometimes</b>: Self-care starts with one person..the self. Not everyday will be productive, or social, or exciting, and that’s okay. Sometimes a little alone time and independence really opens your eyes to what you need to focus on when you’re ready to get back in gear.</p>
+
+<p>Jayce</p>
+
+<p>1) <b>Exercise + Dance classes</b>: When I made a commitment to regularly go to the gym this semester, I did it for the gains more than anything else. But I can’t tell how many times I walked out of that gym, too exhausted to even move, but every time I felt like Superwoman, because I was so proud of how strong I was becoming. On days I was anxious especially, I forced myself to go at least to a dance class, since I knew mentally I would feel so much better if I could just make it to the gym.</p>
+
+<p>2) <b>Scrolling through Pinterest</b>: My feed is full of motivating and thought-provoking quotes which challenge me to keep going and never stop moving forward even when I’m terrified of the future and its uncertainty.</p>
+
+<p>3) <b>Surrounding myself with friends</b></p>
+
+<p>4) <b>Playlist of music (specifically for when I’m not doing so great)</b>: As soon as I feel anxiety begin to creep in, I put on a specific playlist to calm myself, which sometimes helps reduce the effects of anxiousness.</p>
+
+<p>5) <b>Praying + Reading the Bible</b>: My faith is everything to me, so when I do take time to talk to God, I’m reminded of my worth and my purpose when I lose sight of it.</p>
+
+<p>6) <b>Singing</b></p>
+
+<p>7) <b>Watching a show and eating dinner after a long day</b></p>
+
+<p>Ingrid</p>
+
+<p>1) <b>Tea</b>: I once saw somewhere on the internet that tea is “a hug in a mug”, and that’s how I really like to think of it. Drinking tea calms me and helps me stay hydrated.</p>
+
+<p>2) <b>Call parents</b></p>
+
+<p>3) <b>Take time to be with and have fun with friends</b>: I used to always feel so overwhelmed with homework and studying that I didn’t deserve to, and couldn’t afford to, spend time just relaxing with my friends. I try to remind myself that it’s important to enjoy the present, and I should allow myself to hang out with people I enjoy being around. It motivates me to get work done beforehand and causes me to work more efficiently afterwards.</p>
+
+<p>4) <b>Night time routine/Morning routine</b>: Having a routine to start my day, such as what order I brush my teeth, wash my face, and so on, helps prepare me mentally for the day and the regularity of it gives me a sense of control over my day. A similar routine at the end of the day helps me wind down.</p>
+
+<p>5) <b>Music list with only songs that I find calming</b></p>
+
+<p>6) <b>Exercise, dancing, walks</b></p>
+
+                </div>
+                <br>
+                <br>
+                <html lang = "en">
+    <head>
+
+    </head>
+
+    <body>
+        <div class="relatedPosts">
+
+            <h4>Related Posts:</h4>
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Looking-for-the-Silver-Lining">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP10.jpg">
+                        <h5>Looking for the Silver Lining</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/You-Can't-Control-Everything">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP3.png">
+                        <h5>You Can't Control Everything</h5>
+                    </div>
+                  </a>
+                  
+                  
+                
+            
+              
+            
+                
+                
+            
+                
+            
+                
+                  <a href="/Plastered-Smiles">
+                    <div class = "rel">
+                        <img class = "pimg" src="/assets/BP2.jpg">
+                        <h5>Plastered Smiles</h5>
+                    </div>
+                  </a>
+                  
+                  
+                    
+            
+            </div>
+    </body>
+</html>
+            </div>
+            <br>
+            <br>
+            <html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/358914a510.js"></script>
+    </head>
+    <footer>
+    <img src = "/assets/our-logo.jpg" class = "flogoadj">
+    
+    <div class = "ft">
+        <p> Connect with us! </p>
+    </div>
+
+    <div class = "icons">
+        <a href = "https://www.facebook.com/TNA.Outreach/"> <i class="fab fa-facebook-square fa-2x spacef"></i> </a>
+        <a href = "https://www.instagram.com/_togethernotalone_/"> <i class="fab fa-instagram fa-2x spacei"></i> </a>
+        <a href = "mailto:togethernotalone.outreach@gmail.com"> <i class="far fa-envelope fa-2x spacee"></i> </a>
+    </div>
+
+    <div class = "copyright">
+        <p> 
+            © 2019, All Rights Reserved
+        </p>
+    </div>
+</footer>
+</html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('div.cover').fadeIn(1000);
+      $('div.container').fadeIn(1000);
+      $("h3,h4").fadeIn(1000);
+      $('div.content').fadeIn(1000);
+    });
+  </script>
+</body>
+</html>
