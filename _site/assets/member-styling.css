@@ -28,20 +28,20 @@ html {
 
 h1 {
     font-family: 'Hepta Slab', serif;
-    font-size: 2.5rem;
+    font-size: 35px;
     text-align: center;
 }
 h2 {
     font-family: 'Lora', serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: -5px;
 }
 
 p {
     font-family: 'Lora', serif;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.90rem;
 }
 
 .header {
@@ -170,6 +170,9 @@ p {
 }
 @media screen and (min-width: 1200px) {
     .description p {
-        font-size: 1.05rem;
+        font-size: 1.0rem;
+    }
+    .description h2 {
+        font-size: 1.5rem;
     }
 }

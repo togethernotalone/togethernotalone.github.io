@@ -12,18 +12,19 @@
     white-space: nowrap;
     font-family: 'Special Elite', sans-serif;
   }
-  .about-us, .the_team, .members, .events, .ourblog {
-    width: 22%;
+  .about-us, .the_team, .members, .events, .ourblog, .contact_us {
+    width: 15%;
     padding-top: 20px;
   }
-  .link {
-    margin-left: 15%;
+  .contact_us {
+    width: 10%;
   }
   .donate-box {
     padding: 20px;
-    margin-left: -10%;
+    margin-left: 10%;
     background-color: #6E9ACE;
   }
+
   .thislogo {
       height: 65px;
       width: 65px;
