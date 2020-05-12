@@ -35,11 +35,11 @@ html, body{
     display: none;
 }
 h2 {
-    font-size: 50px;
+    font-size: 2.75rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 p {
-    font-size: 25px;
+    font-size: 1.75rem;
     font-family: 'Marck Script', cursive;
 }
 
@@ -67,7 +67,7 @@ p {
 .list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 3%;
+    margin-left: 7.5%;
     margin-top: 15%;
   }
   .list-item {
@@ -127,13 +127,13 @@ p {
     position: center absolute;
     font-family: 'Muli', sans-serif;
     padding: 25px;
-    font-size: 16px;
+    font-size: 1.0rem;
 }
 
 /* Media Queries */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .list {
-        margin-left: 11.5%;
+        margin-left: 10.5%;
     }
     .list-item {
         width: 85%;
@@ -144,22 +144,30 @@ p {
         align-items: center;
     }
     p {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     h2 {
-        font-size: 30px;
+        font-size: 2.7rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    p {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 2.75rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .list-item {
         display: flex;
-        margin-left: -5%;
+        margin-left: -2%;
     }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
     .nptext {
-        margin-left: -19%;
+        margin-left: -10%;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 900px) {
@@ -174,11 +182,11 @@ p {
         height: 50px;
     }
     p {
-        font-size: 11px;
+        font-size: 1.75rem;
         margin-left: -5%;
     }
     h2 {
-        font-size: 20px;
+        font-size: 2.5rem;
         margin-left: -10%;
     }
     body {
