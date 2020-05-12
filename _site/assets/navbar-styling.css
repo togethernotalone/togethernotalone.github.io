@@ -13,15 +13,17 @@
     font-family: 'Special Elite', sans-serif;
   }
   .about-us, .the_team, .members, .events, .ourblog {
-    width: 25%;
+    width: 22%;
     padding-top: 20px;
+  }
+  .link {
+    margin-left: 15%;
   }
   .donate-box {
     padding: 20px;
-    margin-left: -120px;
+    margin-left: -10%;
     background-color: #6E9ACE;
   }
-
   .thislogo {
       height: 65px;
       width: 65px;
