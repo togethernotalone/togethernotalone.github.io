@@ -131,7 +131,7 @@ p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
     .list {
         margin-left: 10.5%;
     }
