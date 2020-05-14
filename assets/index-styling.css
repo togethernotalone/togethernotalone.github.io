@@ -152,10 +152,10 @@ p {
 }
 @media screen and (min-width: 500px) and (max-width: 800px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
     h2 {
-        font-size: 2.75rem;
+        font-size: 2.1rem;
     }
 }
 
@@ -182,11 +182,11 @@ p {
         height: 50px;
     }
     p {
-        font-size: 1.75rem;
+        font-size: 1.0rem;
         margin-left: -5%;
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         margin-left: -10%;
     }
     body {
