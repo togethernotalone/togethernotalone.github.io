@@ -1,5 +1,5 @@
 ---
-title: It's a new dawn
+title: It's A New Dawn
 layout: post
 author: Jayce
 image: "/assets/BP8.jpg"
