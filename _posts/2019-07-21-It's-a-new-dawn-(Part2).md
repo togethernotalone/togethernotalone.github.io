@@ -1,5 +1,5 @@
 ---
-title: It's A New Dawn (Part 2)
+title: It's a new dawn (Part 2)
 layout: post
 author: Jayce
 image: "/assets/BP9.jpg"
