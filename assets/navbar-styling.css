@@ -4,7 +4,6 @@
   background: white;
   padding: 8px 0;
   }
-
 .main-links {
     list-style: none;
     display: flex;
@@ -12,16 +11,24 @@
     white-space: nowrap;
     font-family: 'Special Elite', sans-serif;
   }
-  .about-us, .the_team, .members, .events, .ourblog, .contact_us, .resources {
-    width: 12%;
-    margin-left: 3%;
-    padding-top: 20px;
+  .about-us, .the_team, .members, .events, .ourblog, .contact_us, .resources{
+    width: 10%;
+    flex: 1;
+        text-align: center;
+        margin: 0.25em;
+        padding: 1.5em;
+        text-decoration: none;
+        justify-content: center;
   }
   .donate-box {
-    padding: 20px;
-    width: 5%;
-    margin-left: -1%;
-    background-color: #6E9ACE;
+    width: 0.5%;
+    flex: 0.65;
+        text-align: center;
+        margin: 0.25em;
+        padding: 1.5em;
+        text-decoration: none;
+        justify-content: center;
+        background-color: #6E9ACE;
   }
 
   .thislogo {
@@ -32,12 +39,13 @@
       z-index: 2;
       position: relative;
   }
+  
   a {
       text-decoration: none;
       color: black;
   }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .navigation {
     visibility: hidden;
   }
@@ -45,7 +53,7 @@
     height: 9%;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .overlay, .openbtn, .closebtn{
     visibility: hidden;
     z-index: -100%;
@@ -89,7 +97,7 @@
   animation-delay: 5s;
 }
 #openbar{
-  padding: 10px;
+  padding-top: 10px;
   font-size: 25px;
   float: left;
 }
