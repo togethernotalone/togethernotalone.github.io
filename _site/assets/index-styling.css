@@ -81,17 +81,16 @@ p {
     align-items: center;
   }
   .list-item {
-      margin-left: 2.5%;
       padding: 0.5em;
       width: 100%;
-      
+      margin-left: 3.5%;
   }
 .list-content {
-	background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
-	width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75em;
+    width: 100%;
 }
 .list-content p {
 	flex: 1 0 auto;
@@ -115,6 +114,7 @@ p {
 }
 .blue {
     background-color: #C8E6F9;
+    margin-left: -10%;
 }
 .teal {
   background-color: #D1EFF7;
