@@ -2,6 +2,7 @@
     height: 150px;
     width: 150px;
     margin-top: 15px;
+    margin-left: 2.5%;
 }
 footer{
     width: 100%;
@@ -9,7 +10,7 @@ footer{
     background: white;
 }
 .icons {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 .ft {
     font-family: Muli, sans-serif;
@@ -26,7 +27,7 @@ footer{
 }
 
 .container {
-    width: 250px;
+    width: 180px;
     height: 100px;
     border-radius: .5em;
     float: right;
@@ -34,8 +35,8 @@ footer{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-top: 1%;
-    margin-right: -5%;
+    margin-top: 2%;
+    margin: auto;
   }
   
   .column {
@@ -50,6 +51,6 @@ footer{
     border: 2px solid rgba(111,41,97,.5);*/
     text-align: center;
     display: inline-block;
-    margin-top: 2.5%;
+    margin-top: 5%;
   }
   
