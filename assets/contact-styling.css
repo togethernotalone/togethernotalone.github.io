@@ -8,13 +8,12 @@ body {
 html {
     height: 100%;
 }
-.container {
-  width: 85%;
-  margin: 50px auto;
-}
+
 .contact_box{
-  margin-top: 10%;
+  width: 85%;
+  margin-top: 8%;
   background: white;
+  margin: 75px auto;
 }
 .contact-left {
   padding: 40px 60px;
@@ -27,65 +26,44 @@ html {
   padding: 50px;
 }
 
-input {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid #6E9ACE;
-  outline: none;
-  padding-bottom: 5px;
-}
 textarea {
-  width: 100%;
-  border: 1px solid #6E9ACE;
+  border: 1px solid #ccc;
+  width: 60%;
   outline: none;
   padding: 10px;
   box-sizing: border-box;
   resize: none;
-}
-#name, #email{
-  width: 150%;
-}
-#name {
-  margin-left: 45px;
-}
-#email {
-  margin-left: -50%;
-}
-#subject, #message {
-  margin-top: -2.5%;
-  width: 85%;
-  margin-left: 10%;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+  margin : 0 auto;
 }
 #message {
   margin-top: 5%;
 }
+#submit {
+  font-size: 1.2rem;
+}
 
 button {
   background: #6E9ACE;
-  width: 100px;
+  width: 115px;
   border: none;
   outline: none;
   color: white;
   height: 35px;
   border-radius: 30px;
-  margin-top: 20px;
-  margin-left: 10%;
   box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
-}
-
-.contact-right h3 {
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-tr td:first-child {
-  padding-right: 20px;
-}
-tr td {
-  padding-top: 15px;
+  font-family: 'Josefin Sans', serif;
+  border-radius: 4px;
+  /*box-sizing: border-box;
+  display: block;*/
+  margin-bottom: 5em;
+  margin-top: 2.5em;
 }
 .info {
-  padding: 75px;
-  margin-left: 75px;
+  padding: 100px;
 }
 .info h3 {
   text-align: center;
@@ -96,37 +74,42 @@ tr td {
   font-family: 'Muli', sans-serif;
   font-size: 1.0rem;
 }
-
-@media screen and (min-width: 550px) and (max-width: 850px) {
-  .info {
-    margin-left: 0px;
-  }
-  #email {
-    width: 95%;
-    margin-left: -5%;
-  }
-  #subject, #message {
-    width: 80%;
-  }
-  #name {
-    width: 95%;
-    margin-left: 5%;
-  }
+label {
+  font-family: 'Josefin Sans', sans-serif;
 }
-
-@media screen and (max-width: 550px) {
-  .info {
-    margin-left: 0px;
-  }
-  #email {
-    width: 95%;
-    margin-left: 8%;
-  }
-  #subject, #message {
-    width: 80%;
-  }
-  #name {
-    width: 95%;
-    margin-left: -15%;
-  }
+input[type=text], select{
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+  margin : 0 auto;
+  margin-bottom: 2.5%;
+}
+input[type=email], select{
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+  margin : 0 auto;
+  margin-bottom: 2.5%;
+}
+.margin-up {
+  margin-top: -5%;
+}
+.label_align{
+  width: 60%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  display: block;
+  margin : 0 auto;
+  margin-bottom: 10px;
 }

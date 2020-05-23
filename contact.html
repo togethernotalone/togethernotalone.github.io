@@ -3,23 +3,69 @@ title: Contact Us
 ---
 
 <html lang = "en">
-  <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta charset = "utf-8">
-      <link rel = "stylesheet" href = "/assets/navbar-styling.css">
-      <link rel = "stylesheet" href = "/assets/contact-styling.css">
-      <link rel = "stylesheet" href = "/assets/footer-styling.css">
-      <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/contact-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    </style>
+    <body>
     {%include navbar.html%}
-    <div class = "container">
+   <div class="contact_box">
+      <div class = "info">
+        <h3> Get in Touch with <u>Together Not Alone</u>! </h3>
+        <div class = "label_align">
+        <p> Please fill out this form,
+          and let us know how we can be of help
+        or if you would like to contribute to our organization.
+      Our main goal is to create a mental health community
+    that is based on positive thinking and opportunities for learning.
+  We will get back to you as soon as possible! </p>
+</div>
+      </div>
+      <div class = "margin-up">
+      <form 
+      action = "https://formspree.io/mjvakapz"
+      method = "POST">
+      <div class = "contain-label">
+        <div class = label_align>
+        <label for="fname" id = "firstn">First Name + Last Name</label>
+      </div>
+        <input type="text" id="fname" name="firstname" 
+        placeholder="Your name goes here."value=""required>
+    </div>
+        <div class = label_align>
+        <label for="lname" >Email</label>
+      </div>
+        <input type="email" id="lname" name="lastname" 
+        placeholder="Your email goes here."value=""required>
+    
+        <div class = label_align>
+        <label for="subject">Subject</label>
+      </div>
+        <input type="text" id="lname" name="lastname" 
+        placeholder="What's the main topic you're writing about?"value=""required>
+
+        <div class = label_align>
+        <label for="message">Message</label>
+      </div>
+        <textarea id="subject" name="subject" id ="message" 
+        placeholder="What do you want to tell us?"value=""required></textarea>
+      <div class = label_align>
+      <button type = "submit" id = "submit"> Submit </button>
+    </div>
+    </div>
+    </form>
+    </div>
+  </div>
+    <!--
     <div class = "contact_box">
       <div class = "info">
         <h3> Get in Touch with <u>Together Not Alone</u>! </h3>
@@ -30,23 +76,38 @@ title: Contact Us
     that is based on positive thinking and opportunities for learning.
   We will get back to you as soon as possible! </p>
       </div>
-      <div class = "contact-left">
-        <form 
+      <div class = "contact-contains">
+      <ul>
+        <div class = "size">
+        <li>
+            <label>Label 1</label>
+            <input type="text" name="name" id="name" value="" required/>
+        </li>
+         <li>
+            <label>Label 2</label>
+            <input type="text" />
+        </li>
+      </div>
+         <li class = "here">
+            <label>Label 3</label>
+            <input type="text" />
+        </li>
+         <li>
+            <label>Label 4</label>
+            <input type="text" />
+        </li>
+    </ul>
+  </div>
+    <button type = "submit" id = "submit"> Submit </button>
+       <form 
         action = "https://formspree.io/mjvakapz"
         method = "POST">
-        <div class = "input-row">
-          <div class = "input-group">
             <input type="text" placeholder = "Name" name="name" id="name" value="" required/>
-          </div>
-          <div class = "input_group">
             <input type="text" placeholder = "Email" name="email" id="email" value=""required />
-          </div>
-        </div>
             <input type="subject" placeholder = "Subject" name="subject" id="subject" value="" required/>
             <textarea name = "message" placeholder = "Message" id ="message"required></textarea>
-            <button type = "submit"> Submit </button>
+            <button type = "submit" id = "submit"> Submit </button>
       </div>
-    </form>
-  </div>
+    </form>-->
 </body>
 </html>
