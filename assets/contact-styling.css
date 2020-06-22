@@ -39,6 +39,7 @@ textarea {
   display: block;
   margin : 0 auto;
   font-size:17px;
+  font-family: 'Muli', sans-serif;
 }
 #message {
   margin-top: 5%;
@@ -90,6 +91,7 @@ input[type=text], select{
   margin : 0 auto;
   margin-bottom: 2.5%;
   font-size:17px;
+  font-family: 'Muli', sans-serif;
 }
 input[type=email], select{
   width: 60%;
@@ -103,6 +105,7 @@ input[type=email], select{
   margin : 0 auto;
   margin-bottom: 2.5%;
   font-size:17px;
+  font-family: 'Muli', sans-serif;
 }
 .margin-up {
   margin-top: -5%;
