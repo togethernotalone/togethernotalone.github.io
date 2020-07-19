@@ -161,7 +161,8 @@ html {
         height: 0%;
     }
 }
-/*@media screen and (max-width: 414px) and (min-width: 300px) {
+/*
+@media screen and (max-width: 414px) and (min-width: 300px) {
     body {
        background: #add8e6;
     }
@@ -174,3 +175,9 @@ html {
         font-size: 1.5rem;
     }
 }
+/*
+@media only screen and (min-width : 768px) {
+    body {
+        background: #add8e6;
+     }
+}*/
