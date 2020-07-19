@@ -36,14 +36,14 @@ html, body{
 .nptext {
     font-family: 'Muli', sans-serif;
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 10%;
 }
 .nptext h2 {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     font-family: 'Josefin Sans', sans-serif;
 }
 .nptext p {
-    font-size: 1.85vw;
+    font-size: 1.80vw;
     font-family: 'Marck Script', cursive;
 }
 

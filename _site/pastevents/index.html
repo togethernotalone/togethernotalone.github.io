@@ -8,7 +8,8 @@
         <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Hepta+Slab|Lora&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
@@ -30,7 +31,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
     </head>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/index/">
           <img src="/assets/our-logo.jpg" width="30" height="30" alt="TNA Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,22 +40,22 @@
         <div class = "collapse navbar-collapse" id = "navbarSupportedContent"data-target=".navbar-collapse">
             <ul class = "navbar-nav ml-auto">
                 <li class = "nav-item">
-                    <a class = "nav-link" href = ""> Home </a>
+                    <a class = "nav-link" href = "/index/"> Home </a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">About</a>
+                    <a class = "nav-link" href = "/about/">About</a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">Members</a>
+                    <a class = "nav-link" href = "/members/">Members</a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">Events</a>
+                    <a class = "nav-link" href = "/events/">Events</a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">Blog</a>
+                    <a class = "nav-link" href = "/blog/">Blog</a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">Contact Us</a>
+                    <a class = "nav-link" href = "/contact/">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -157,11 +158,11 @@ this.style.opacity = "1.00";
 };
 </script>-->
 
-    <div class="animsition"
+    <!--<div class="animsition"
   data-animsition-in-class="fade-in-left-sm"
   data-animsition-in-duration="1000"
   data-animsition-out-class="fade-out-left-sm"
-  data-animsition-out-duration="800">
+  data-animsition-out-duration="800">-->
     <div class = "event-card starter">
     <div class = "swiper-container swiper1"> 
     <div class = "swiper-wrapper">
@@ -188,7 +189,7 @@ this.style.opacity = "1.00";
     </div>
     </div>
     <div class = "event-card starter">
-    <div class = "swiper-container swiper1"> 
+    <div class = "swiper-container swiper2"> 
     <div class = "swiper-wrapper">
     <div class = "swiper-slide"> 
     <img class = "all-slider" src = "/assets/RD1.jpg"> 
@@ -246,7 +247,8 @@ this.style.opacity = "1.00";
 </footer>
 </html>
     </div>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
     var swiper1 = new Swiper('.swiper1', {
       navigation: {
@@ -261,7 +263,7 @@ this.style.opacity = "1.00";
       },
     });
   </script>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
+<!--<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
 <script>
     $(document).ready(function() {
   $(".animsition").animsition({
@@ -284,4 +286,4 @@ this.style.opacity = "1.00";
     transition: function(url){ window.location.href = url; }
   });
 })
-</script>
+</script>-->

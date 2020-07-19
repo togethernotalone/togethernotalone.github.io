@@ -24,33 +24,29 @@ html {
 .description {
     width: 100%;
     height: 100%;
-    margin-left: 120%;
+    margin-left: 125%;
     overflow: hidden;
+    align-items: center;
 }
 
-h1 {
-    font-family: 'Hepta Slab', serif;
+.member-card .description h1 {
+    font-family: 'Muli', serif;
     font-size: 35px;
     text-align: center;
+    padding: 20px;
 }
-h2 {
-    font-family: 'Lora', serif;
+.member-card .description h2 {
+    font-family: 'Muli', serif;
     text-align: center;
     font-size: 1.2rem;
-    margin-top: -5px;
+    margin-top: -20px;
 }
 
-p {
+.member-card .description p {
     font-family: 'Lora', serif;
     text-align: left;
     font-size: 0.90rem;
-}
-
-.header {
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 30%;
-    margin-top: 5%;
-    font-size: 50px;
+    margin-top: 15px;
 }
 .containera {
     width: 40%;
