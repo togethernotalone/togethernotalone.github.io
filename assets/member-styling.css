@@ -174,3 +174,8 @@ html {
         font-size: 1.5rem;
     }
 }
+@media only screen and (min-width : 768px) {
+    body {
+        background: #add8e6;
+     }
+}
