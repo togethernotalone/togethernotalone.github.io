@@ -12,23 +12,23 @@ html {
   list-style-type: none;
   margin-left: -5%;
 }
-.header {
+.headery {
   text-align: center;
   padding: 20px;
   font-size: 40px;
   font-family: 'Lora', serif;
 }
-.main-container {
+.filledd-out {
   margin: 0.25in;
   background-color: rgb(255, 255, 255);
 }
-.column {
+.columny {
   float: left;
   width: 40%;
   padding: 20px;
   margin-left: 50px;
 }
-.row {
+.rowy {
   margin: 0 0;
 }
 .row:after{
@@ -36,14 +36,14 @@ html {
   display: table;
   clear: both;
 }
-.card {
+/*.card {
   padding: 20px;
   background-color: white;
   border-radius: 20px;
 }
 .card:hover{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+}*/
 
 .pic img {
 height: auto;

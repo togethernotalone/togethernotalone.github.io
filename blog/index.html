@@ -17,21 +17,20 @@ title: Blog Page
 
 <body>
     {% include navbar.html %}
-    <div class="animsition"
+    <!--<div class="animsition"
   data-animsition-in-class="fade-in-left-sm"
   data-animsition-in-duration="1000"
   data-animsition-out-class="fade-out-left-sm"
-  data-animsition-out-duration="800">
-    <div class = "main-container">
-      <p class = "header"> Blog Posts </p>
+  data-animsition-out-duration="800">-->
+  <div class = "filledd-out">
+      <p class = "headery"> Blog Posts </p>
       {% for post in paginator.posts %}
-      <div class = "row">
-        <div class = "column">
-          <div class = "card">
+      <div class = "rowy">
+        <div class = "columny">
             <a href="{{ post.url }}">
               <div class = pic>
             <img src = {{post.image}}>
-          </div>
+              </div>
       <h1 class = "p-ti">{{ post.title }}</h1>
       <p class = "p-au"> {{ post.date | date: "%B %-d, %Y" }} • {{post.author}}
       </p>
@@ -39,11 +38,9 @@ title: Blog Page
 </a>
 </div>
 </div>
+</div>
 {% endfor %}
-</div>
-</div>
-</div>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
+<!--<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
 <script>
     $(document).ready(function() {
   $(".animsition").animsition({
@@ -66,6 +63,6 @@ title: Blog Page
     transition: function(url){ window.location.href = url; }
   });
 })
-</script>
+</script>-->
 </body>
 </html>
