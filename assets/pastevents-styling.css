@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247)) !important;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;

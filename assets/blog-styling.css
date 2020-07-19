@@ -18,9 +18,10 @@ html {
   font-size: 40px;
   font-family: 'Lora', serif;
 }
-.filledd-out {
+.fill-white {
   margin: 0.25in;
-  background-color: rgb(255, 255, 255);
+  background: white;
+  height: fit-content;
 }
 .columny {
   float: left;
@@ -45,13 +46,13 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }*/
 
-.pic img {
+.picture img {
 height: auto;
 width: 100%;
 vertical-align: middle;
 }
 
-.pic {
+.picture {
   width: 100%;
 }
 .sum {
@@ -84,9 +85,4 @@ vertical-align: middle;
     width: 90%;
     margin: auto;
   }
-}
-@media screen and (max-width: 414px) and (min-width: 300px) {
-    body {
-       background: #add8e6;
-    }
 }
