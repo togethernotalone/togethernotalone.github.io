@@ -20,13 +20,13 @@ footer{
     font-family: Muli, sans-serif;
     font-size: 11px;
 } 
-@media screen and (max-width: 1150px) {
+/*@media screen and (max-width: 1150px) {
     footer {
         visibility: hidden;
     }
-}
+}*/
 
-.cont {
+.conty {
     width: 180px;
     height: 100px;
     border-radius: .5em;
@@ -39,12 +39,12 @@ footer{
     margin: auto;
   }
   
-  .col {
+  .coly {
     flex-direction: column;
     height: 100px;
   }
   
-  .item {
+  .itemy {
     width: 150px;
     height: 100px;
     /*background-color: rgba(111,41,97,.3);

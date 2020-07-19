@@ -34,19 +34,15 @@ html, body{
 
 /* Nonprofit text alignment */
 .nptext {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 600px;
-    height: 70px;
     font-family: 'Muli', sans-serif;
     text-align: center;
+    margin-top: 2.5rem;
 }
-h2 {
+.nptext h2 {
     font-size: 3.5vw;
     font-family: 'Josefin Sans', sans-serif;
 }
-p {
+.nptext p {
     font-size: 1.85vw;
     font-family: 'Marck Script', cursive;
 }
@@ -72,30 +68,30 @@ p {
     clear: both;
 } */
 
-.list {
+.listy {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15%;
     justify-content: center;
     align-items: center;
   }
-  .list-item {
+  .listy_item {
       padding: 0.5em;
       width: 100%;
       margin-right: 1.0%;
   }
-.list-content {
+.listy_content {
     background-color: #fff;
     display: flex;
     flex-direction: column;
     padding: 0.75em;
     width: 100%;
 }
-.list-content p {
+.listy_content p {
 	flex: 1 0 auto;
 }
 @media all and (min-width: 40em) {
-    .list-item {
+    .listy_item {
       width: 20.5rem;
     }
   }
@@ -105,7 +101,7 @@ p {
     }
   }*/
 
-.card {
+.cardy {
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 
     0 15px 40px rgba(166,173,201,.2);
     padding: 20px;
@@ -139,10 +135,10 @@ p {
 
 /* Media Queries */
 @media screen and (max-width: 1150px) {
-    .list {
+    .listy {
         margin-left: 10.5%;
     }
-    .list-item {
+    .listy_item {
         width: 85%;
         margin-left: -0.5%;
         margin-bottom: 15px;
@@ -167,7 +163,7 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-    .list-item {
+    .listy_item {
         display: flex;
         margin-left: -2%;
     }
