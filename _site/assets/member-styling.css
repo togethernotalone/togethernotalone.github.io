@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
-    height: 100%;
+    background: linear-gradient(to left top, rgb(199, 247, 247), rgb(199, 212, 243));
+    height: auto;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -161,11 +161,11 @@ html {
         height: 0%;
     }
 }
-@media screen and (max-width: 414px) and (min-width: 300px) {
+/*@media screen and (max-width: 414px) and (min-width: 300px) {
     body {
        background: #add8e6;
     }
-}
+}*/
 @media screen and (min-width: 1200px) {
     .description p {
         font-size: 1.0rem;

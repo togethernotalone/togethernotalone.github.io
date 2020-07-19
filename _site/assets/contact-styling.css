@@ -26,29 +26,25 @@ html {
   padding: 50px;
 }
 
-textarea {
+#subject {
+  width: 100%;
+  padding: 12px;
   border: 1px solid #ccc;
-  width: 60%;
-  outline: none;
-  padding: 10px;
-  box-sizing: border-box;
-  resize: none;
   border-radius: 4px;
+  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   display: block;
-  margin : 0 auto;
+  margin : auto;
+  margin-bottom: 2.5%;
   font-size:17px;
   font-family: 'Muli', sans-serif;
-}
-#message {
-  margin-top: 5%;
 }
 #submit {
   font-size: 1.2rem;
 }
 
-button {
+#submit {
   background: #6E9ACE;
   width: 115px;
   border: none;
