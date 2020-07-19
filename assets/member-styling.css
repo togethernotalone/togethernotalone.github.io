@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to left top, rgb(199, 247, 247), rgb(199, 212, 243));
-    height: 100%;
+    height: auto;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
