@@ -115,3 +115,8 @@ input[type=email], select{
   margin : 0 auto;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  body {
+      background: #e1f2f8 !important;
+  }
+}
