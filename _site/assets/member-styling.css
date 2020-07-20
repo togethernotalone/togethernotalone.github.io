@@ -13,7 +13,6 @@ html {
     height: 65%;
     background: white;
     border-radius: 25px;
-    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
@@ -149,16 +148,24 @@ html {
 
 /* Media Queries */
 @media screen and (max-width: 900px) {
-    .containera, .containerm, .containersa, 
+    .containerm, .containersa, 
     .containersaf, .containert, .containersm, 
     .containeri, .containerj, .containersp, 
     .containersd, .containershm, .containerka,
     .containerdd, .containervm{
         width: 100%;
+        margin-top: 140%;
+    }
+    .containera {
+        width: 100%;
     }
     .description {
-        width: 0%;
-        height: 0%;
+        display: none;
+    }
+}
+@media screen and (min-width: 900px) {
+    .mobile-container, .mobile-description {
+        display: none;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -173,4 +180,32 @@ html {
     body {
         background: #e1f2f8 !important;
     }
+}
+.mobile-container{
+    background:white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    margin: 0 auto;
+}
+.mobile-container .mobile-description h1 {
+    font-family: 'Muli', serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.mobile-container .mobile-description h2 {
+    font-family: 'Muli', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -20px;
+}
+
+.mobile-container .mobile-description p {
+    font-family: 'Lora', serif;
+    text-align: left;
+    font-size: 0.90rem;
+    margin-top: -10px;
+    padding: 20px;
 }

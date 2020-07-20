@@ -22,11 +22,11 @@ footer{
     font-family: Muli, sans-serif;
     font-size: 11px;
 } 
-/*@media screen and (max-width: 1150px) {
+@media screen and (min-width: 100px) and (max-width: 950px) {
     footer {
         visibility: hidden;
     }
-}*/
+}
 
 .conty {
     width: 180px;
