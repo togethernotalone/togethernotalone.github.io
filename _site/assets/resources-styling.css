@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+.resources_box{
+    width: 85%;
+    background: white;
+    margin: 75px auto;
+}
+
+.main-info {
+    padding: 75px;
+    text-align: center;
+    font-family: 'Muli', serif;
+}
+.resources-main{
+    text-align: center;
+    font-family: 'Josefin Sans', serif;
+}
+.resources-sources{
+    padding: 50px;
+    margin-top: -100px;
+}
+.resources-sources li {
+    margin-bottom: 20px;
+    font-family: 'Muli', serif;
+}
