@@ -18,10 +18,10 @@ html {
   font-size: 40px;
   font-family: 'Lora', serif;
 }
-.fill-white {
+#fill-white {
   margin: 0.25in;
   background: white;
-  height: fit-content;
+  height: 500%;
 }
 .columny {
   float: left;
@@ -62,12 +62,19 @@ vertical-align: middle;
 .p-ti {
   font-family: 'Lora', serif;
   text-align: center;
+  color: black;
 }
 
 .p-au, .sum{
   font-family: 'Muli', sans-serif;
   text-align:center;
+  color: black;
 }
+
+.columny a:hover {
+  text-decoration: none;
+}
+/*
 @media screen and (max-width: 750px) {
   .column {
     width: 90%;
@@ -85,4 +92,5 @@ vertical-align: middle;
     width: 90%;
     margin: auto;
   }
-}
+}*/
+

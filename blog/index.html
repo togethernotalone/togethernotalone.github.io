@@ -23,7 +23,7 @@ title: Blog Page
   data-animsition-out-class="fade-out-left-sm"
   data-animsition-out-duration="800">-->
 
-  <!--<div class = "fill-white">
+  <!--<div id="fill-white">
       <p class = "headery"> Blog Posts </p>
       {% for post in paginator.posts %}
       <div class = "rowy">
@@ -38,9 +38,9 @@ title: Blog Page
       <p class = "sum"> {{post.post_description}}</p>
 </a>
 </div>
+</div>-->
+{%endfor%}
 </div>
-</div>
-{% endfor %}-->
 
 <!--<script src = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"> </script>
 <script>

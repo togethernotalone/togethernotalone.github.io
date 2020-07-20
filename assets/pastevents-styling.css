@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247)) !important;
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -73,6 +73,6 @@ html {
 
 @media screen and (max-width: 414px) and (min-width: 300px) {
     body {
-       background: #add8e6;
+       background: #add8e6 !important;
     }
 }
