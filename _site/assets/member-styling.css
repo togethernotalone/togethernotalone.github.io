@@ -28,24 +28,25 @@ html {
     align-items: center;
 }
 
-.member-card .description h1 {
+#two h1 {
     font-family: 'Muli', serif;
     font-size: 35px;
     text-align: center;
     padding: 20px;
 }
-.member-card .description h2 {
+#two h2 {
     font-family: 'Muli', serif;
     text-align: center;
     font-size: 1.2rem;
     margin-top: -20px;
 }
 
-.member-card .description p {
+#two p {
     font-family: 'Lora', serif;
     text-align: left;
-    font-size: 0.90rem;
+    font-size: 1.00rem;
     margin-top: 15px;
+    padding: 20px;
 }
 .containera {
     width: 40%;
@@ -146,7 +147,7 @@ html {
     border-radius: 25px/0px;
 }
 
-/* Media Queries */
+/*
 @media screen and (max-width: 900px) {
     .containerm, .containersa, 
     .containersaf, .containert, .containersm, 
@@ -180,32 +181,52 @@ html {
     body {
         background: #e1f2f8 !important;
     }
-}
-.mobile-container{
-    background:white;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    align-items: center;
-    margin: 0 auto;
-}
-.mobile-container .mobile-description h1 {
-    font-family: 'Muli', serif;
-    font-size: 35px;
-    text-align: center;
-    padding: 20px;
-}
-.mobile-container .mobile-description h2 {
-    font-family: 'Muli', serif;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: -20px;
-}
+}*/
+.wrapper { 
+    overflow:hidden;
+    width: 70%;
+    height: 75%;
+    margin: auto;
+  }
+  #one {
+    float:left; 
+    width: 40%;
+    height: 100%;
+  }
+  #two { 
+    background-color: white;
+    overflow: scroll;
+    height: 100%;
+  }
 
-.mobile-container .mobile-description p {
-    font-family: 'Lora', serif;
-    text-align: left;
-    font-size: 0.90rem;
-    margin-top: -10px;
-    padding: 20px;
+  @media screen and (min-width: 100px) and (max-width: 500px) {
+    #one { 
+     float: none;
+     margin-right:0;
+     width:auto;
+     border:0;
+     height: 50%;  
+   }
+   #two p {
+       padding: 10px;
+   }
+   #two {
+       height: 50%;
+       overflow: scroll;
+   }
+   .wrapper{ 
+       overflow:hidden;
+       width: 75%;
+       height: 75%;
+       margin: auto;
+     }
+ }
+ .adjusted-wrapper{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.descrip{
+    margin-left: 125%;
+    overflow: hidden;
+    align-items: center;
 }

@@ -79,7 +79,7 @@ html {
     margin: auto;
   }
   
-  .wrappered .swiper-slide {
+.wrappered .swiper-slide {
      height: 100%;
      width: 100%;
 }

@@ -23,9 +23,11 @@ title: Blog Page
   data-animsition-out-class="fade-out-left-sm"
   data-animsition-out-duration="800">-->
 
-  <!--<div id="fill-white">
+  <div id="fill-white">
       <p class = "headery"> Blog Posts </p>
-      {% for post in paginator.posts %}
+      {% for post in paginator.posts limit:9 %}
+  {% assign indexmod3 = forloop.index | modulo: 3 %}
+  {% if indexmod3 == 0 %}<div style="clear: both;"></div>{% endif %}
       <div class = "rowy">
         <div class = "columny">
             <a href="{{ post.url }}">
@@ -38,7 +40,7 @@ title: Blog Page
       <p class = "sum"> {{post.post_description}}</p>
 </a>
 </div>
-</div>-->
+</div>
 {%endfor%}
 </div>
 
