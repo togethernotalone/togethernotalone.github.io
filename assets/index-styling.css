@@ -117,17 +117,9 @@ html, body{
 }
 
 /* Card Content Layout */
-.c1, .b1, .d1 {
-    display: inline-flex;
-    border: 0;
-    width: 150px;
-    height: 150px;
-    margin-left: 25%;
-    margin-right: 50%;
-}
 
 .cinfo, .binfo, .dinfo{
-    position: center absolute;
+    text-align: center;
     font-family: 'Muli', sans-serif;
     padding: 25px;
     font-size: 1.0rem;
@@ -140,7 +132,6 @@ html, body{
     }
     .listy_item {
         width: 85%;
-        margin-left: -0.5%;
         margin-bottom: 15px;
         display: flex;
         justify-content: center;
