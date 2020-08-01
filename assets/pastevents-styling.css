@@ -25,14 +25,14 @@ html {
 }
 .info {
     font-size: 17px;
-    padding: 25px;
+    padding: 30px;
     font-family: 'Muli', sans-serif;
 }
 .title {
     font-size: 30px;
     text-align: center;
-    padding: 5px;
     font-family: 'Lora', serif;
+    padding: 20px;
 }
 .col-right {
     width: 45%;

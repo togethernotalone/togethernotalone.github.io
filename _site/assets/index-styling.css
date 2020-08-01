@@ -39,11 +39,11 @@ html, body{
     margin-top: 10%;
 }
 .nptext h2 {
-    font-size: 4.5vw;
+    font-size: 4.5rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 .nptext p {
-    font-size: 1.80vw;
+    font-size: 1.80rem;
     font-family: 'Marck Script', cursive;
 }
 
@@ -117,17 +117,9 @@ html, body{
 }
 
 /* Card Content Layout */
-.c1, .b1, .d1 {
-    display: inline-flex;
-    border: 0;
-    width: 150px;
-    height: 150px;
-    margin-left: 25%;
-    margin-right: 50%;
-}
 
 .cinfo, .binfo, .dinfo{
-    position: center absolute;
+    text-align: center;
     font-family: 'Muli', sans-serif;
     padding: 25px;
     font-size: 1.0rem;
@@ -140,25 +132,10 @@ html, body{
     }
     .listy_item {
         width: 85%;
-        margin-left: -0.5%;
         margin-bottom: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    p {
-        font-size: 1.5rem;
-    }
-    h2 {
-        font-size: 2.7rem;
-    }
-}
-@media screen and (min-width: 500px) and (max-width: 800px) {
-    p {
-        font-size: 0.85rem;
-    }
-    h2 {
-        font-size: 1.8rem;
     }
 }
 
@@ -169,31 +146,11 @@ html, body{
     }
 }
 
-/*@media screen and (max-width: 600px) and (min-width: 400px) {
-    .nptext {
-        margin-left: -10%;
+@media screen and (min-width: 100px) and (max-width: 800px) {
+    .nptext h2 {
+        font-size: 2.25rem;
+    }
+    .nptext p {
+        font-size: 1.0rem;
     }
 }
-@media screen and (max-width: 1000px) and (min-width: 900px) {
-    .nptext {
-        margin-top: 10%;
-    }
-}
-@media screen and (max-width: 414px) and (min-width: 300px) {
-    .nptext {
-        margin-left: 1%;
-        width: 300px;
-        height: 50px;
-    }
-    p {
-        font-size: 0.85rem;
-        margin-left: -5%;
-    }
-    h2 {
-        font-size: 1.8rem;
-        margin-left: -10%;
-    }
-    body {
-       background: #add8e6;
-    }
-}*/
