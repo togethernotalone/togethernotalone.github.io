@@ -8,7 +8,6 @@ body {
 html {
     height: 100%;
 }
-
 .contact_box{
   width: 85%;
   margin-top: 8%;
@@ -136,5 +135,8 @@ input[type=email], select{
   }
   .label_info {
     margin-left: 20px;
+  }
+  .sub {
+    text-align: center;
   }
 }

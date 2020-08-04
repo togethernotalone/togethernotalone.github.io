@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+
+.podcast-box{
+    width: 85%;
+    margin-top: 8%;
+    background: white;
+    margin: 75px auto;
+    padding: 20px;
+  }
+.card-fix {
+    width: 16rem; 
+    text-align: center;
+}
+.pod-align {
+    text-align: center;
+    font-family: 'Josefin Sans', serif;
+}
+.deco-none {
+    color:#000000 !important;
+    text-decoration:none;
+}
+.pod-align a {
+    color: blue;
+}
+p {
+    text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .card-fix {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+}

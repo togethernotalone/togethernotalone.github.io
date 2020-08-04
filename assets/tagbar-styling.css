@@ -4,25 +4,27 @@
 }
 
 .rel {
-    width: 175px;
-    height: 175px;
-    display: inline-block;
+    width: 200px;
+    height: 250px;
     padding: 15px;
     opacity: 0.8;
     border-radius: 15px;
+    display: inline-block;
 }
 .rel:hover {
     opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
 }
+.image-fit {
+    width: 200px;
+    height: 100px;
+}
 .pimg {
-    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
 }
 .rel h5, h4 {
-    font-family: Muli, sans-serif;
-}
-.rel h5 {
-    margin-top: 10;
+    font-family: 'Muli', sans-serif;
 }
 
 @media screen and (min-width: 1000px) {

@@ -32,6 +32,13 @@ html, body{
   margin: 0;
 }
 
+.pull-bottom {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
+
+
 /* Nonprofit text alignment */
 .nptext {
     font-family: 'Muli', sans-serif;
@@ -124,7 +131,9 @@ html, body{
     padding: 25px;
     font-size: 1.0rem;
 }
-
+a {
+    color: black !important;
+}
 /* Media Queries */
 @media screen and (max-width: 1150px) {
     .listy {

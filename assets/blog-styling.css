@@ -18,17 +18,16 @@ html {
   font-size: 40px;
   font-family: 'Lora', serif;
 }
-.min-heighted{
-  min-height: 100%;
-}
 #fill-white{
   height: 100%;
-  
+  margin: auto;
+  width: 95%;
+  margin-right: -2%;
 }
 .columny {
   float: left;
   width: 40%;
-  padding: 20px;
+  padding: 15px;
   margin-left: 50px;
 }
 .rowy {
@@ -84,6 +83,7 @@ vertical-align: middle;
     margin:auto;
     padding: 20px;
     margin-right: -5%;
+    background-color: white;
 }
 .card{
   overflow:hidden;
@@ -93,5 +93,12 @@ vertical-align: middle;
   .columny {
     width: 90%;
     margin: auto;
+    background-color: white;
   }
+}
+
+* {box-sizing: border-box;}
+
+p {
+  margin: 0 0 1em 0;
 }
