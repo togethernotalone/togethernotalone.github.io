@@ -131,9 +131,6 @@ html, body{
     padding: 25px;
     font-size: 1.0rem;
 }
-a {
-    color: black !important;
-}
 /* Media Queries */
 @media screen and (max-width: 1150px) {
     .listy {
