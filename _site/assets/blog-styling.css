@@ -39,6 +39,11 @@ p, .index-anchor, .index-anchor:hover{
 .page-link {
   font-family: 'Muli', serif;
 }
+@media screen and (max-width: 550px) {
+  .center-align {
+    margin: auto;
+  }
+}
 /*
 .info li {
   list-style-type: none;
