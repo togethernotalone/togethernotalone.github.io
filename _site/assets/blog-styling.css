@@ -36,6 +36,9 @@ p, .index-anchor, .index-anchor:hover{
 .index-anchor p {
   font-family: 'Muli', serif;
 }
+.page-link {
+  font-family: 'Muli', serif;
+}
 /*
 .info li {
   list-style-type: none;
