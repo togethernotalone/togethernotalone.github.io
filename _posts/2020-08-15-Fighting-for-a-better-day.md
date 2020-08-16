@@ -2,8 +2,8 @@
 title: Fighting for a better day
 layout: post
 author: Jayce
-image: "/assets/BP11.jpeg"
-post_description: Jayce emphasizes the importance of Black Lives Matter by discussing the death of George Floyd.
+image: "/assets/BP11.png"
+post_description: The past 3 months of national protests in the wake of the murder of George Floyd have rocked our nation to the core. As we struggle and push on to ensure the rights of every human being through the Black Lives Movement, how do we protect our own mental health in the midst of the striving?
 categories: [Anxiety, Mental Health, Acceptance, Challenges]
 permalink: /:title
 ---
