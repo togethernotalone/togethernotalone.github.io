@@ -2,7 +2,7 @@
 title: The End is Nigh
 layout: post
 author: Akhila
-image: "/assets/BP5.png"
+image: "/assets/BP5.jpg"
 post_description: Akhila shares a moving story about coming to terms with anxiety and altering one's thought process about mental health.
 categories: [Anxiety, Mental Health, Acceptance, Challenges]
 permalink: /:title
