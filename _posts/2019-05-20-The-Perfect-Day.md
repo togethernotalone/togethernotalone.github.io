@@ -2,7 +2,7 @@
 title: The Perfect Day
 layout: post
 author: Akhila
-image: "/assets/BP6.jpg"
+image: "/assets/BP6.png"
 post_description: Akhila shares a narrative about how a perfect day can go awry because of one's negative thoughts.
 categories: [Anxiety, Mental Health, Challenges, Self-care, Counseling]
 permalink: /:title

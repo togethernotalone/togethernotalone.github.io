@@ -28,12 +28,12 @@
                 {% endfor %}
             
                 {% if sameTagCount >= minCommonTags %}
+                <div class = "col-5 col-md-3" style="display:inline-block;">
                   <a href="{{ site.baseurl }}{{ post.url }}">
-                    <div class = "rel">
                         <img class = "pimg" src="{{post.image}}">
                         <h5>{{post.title}}</h5>
-                    </div>
                   </a>
+                </div>
                   {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                   {% if maxRelatedCounter >= maxRelated %}
                     {% break %}

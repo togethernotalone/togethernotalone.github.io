@@ -19,7 +19,7 @@ html {
 .title {
   margin: 0.2in;
   text-align: center;
-  font-family: 'Lora', serif;
+  font-family: 'Josefin Sans', serif;
   font-size: 45px;
   margin-top: 5%;
 }
@@ -28,7 +28,7 @@ html {
   margin-top: -2%;
   text-align: center;
   font-family: 'Muli', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: darkgrey;
 }
 
