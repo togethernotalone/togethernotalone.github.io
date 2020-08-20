@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+
+.contain-box{
+    width: 85%;
+    margin-top: 8%;
+    background: white;
+    margin: 75px auto;
+    padding: 20px;
+}
+.card {
+    width: 25rem;
+    margin: 20px;
+    text-align: center;
+}
+.chapters-align{
+    text-align: center;
+    font-family: 'Josefin Sans', serif;
+}
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}

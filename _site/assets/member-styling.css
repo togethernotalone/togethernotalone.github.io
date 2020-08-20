@@ -29,20 +29,20 @@ html {
 }
 
 #two h1 {
-    font-family: 'Muli', serif;
+    font-family: 'Lora', serif;
     font-size: 35px;
     text-align: center;
     padding: 20px;
 }
 #two h2 {
-    font-family: 'Muli', serif;
+    font-family: 'Lora', serif;
     text-align: center;
     font-size: 1.2rem;
     margin-top: -20px;
 }
 
 #two p {
-    font-family: 'Lora', serif;
+    font-family: 'Muli', serif;
     text-align: left;
     font-size: 1.00rem;
     margin-top: 15px;
