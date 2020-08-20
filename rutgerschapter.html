@@ -15,11 +15,36 @@ permalink: /rutgerschapter/
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
     <body>
         {% include navbar.html %}
         <div class = "contain-box">
             <h2 class = "chapters-align">Rutgers Chapter</h2>
+            <div class="wrappered adjusted-wrapper">
+                <div id="onesie">
+                  <div class = "swiper-container"> 
+                    <div class = "swiper-wrapper">
+                    <div class = "swiper-slide"> 
+                        <img class = "all-slider" src = "/assets/SJMH.png"> 
+                    </div>
+                    <div class = "swiper-slide"> 
+                        <img class = "all-slider" src = "/assets/SJMH_G1.png">
+                    </div>
+                    <div class = "swiper-slide">
+                        <img class = "all-slider" src = "/assets/SJMH_G2.png">
+                    </div>
+                    <div class = "swiper-slide">
+                        <img class = "all-slider" src = "/assets/SJMH_OpenMic.png">
+                    </div>
+                    </div>
+                    <div class = "swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
             <div class="container"> 
                 <div class="row"> 
             <div class = "card card-fix">
@@ -171,4 +196,13 @@ permalink: /rutgerschapter/
     </div>
         {% include footer.html %}
     </body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper1 = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 </html>
