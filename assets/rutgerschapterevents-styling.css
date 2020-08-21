@@ -1,0 +1,91 @@
+.contain-box{
+    width: 85%;
+    margin-top: 8%;
+    background: white;
+    margin: 75px auto;
+    padding: 20px;
+}
+body {
+    background: linear-gradient(to left top, rgb(218, 248, 248), rgb(214, 224, 247));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+html {
+    height: 100%;
+}
+.chapters-align{
+    text-align: center;
+    font-family: 'Josefin Sans', serif;
+}
+
+.all-slider{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wrappered { 
+    width: 75%;
+    height: 65%;
+    margin: 100px;
+  }
+.wrappered .swiper-slide {
+     height: 100%;
+     width: 100%;
+}
+  #onesie {
+    float:left; 
+    width: 50%;
+  }
+  #twosie {
+      height: 100%;
+      overflow: scroll;
+  }
+  #twosie .info {
+      margin-top: -3%;
+  }
+ @media screen and (max-width: 800px) {
+     #onesie { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      height: 50%;  
+    }
+    #twosie {
+        height: 50%;
+        overflow: scroll;
+    }
+    .wrappered .onesie .swiper-slide, .all-slider {
+        height: 100%;
+    }
+    .wrappered { 
+        overflow:hidden;
+        width: 75%;
+        height: 90%;
+        margin: auto;
+      }
+  }
+
+.adjusted-wrapper{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.back-1 {
+    background-color: rgb(245, 232, 218);
+}
+.back-2 {
+    background-color: #fde8e6;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding: 15px;
+}
+.info {
+    font-size: 17px;
+    padding: 30px;
+    font-family: 'Muli', sans-serif;
+}

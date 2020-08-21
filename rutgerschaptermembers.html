@@ -1,13 +1,13 @@
 ---
-title: Rutgers Chapter
-permalink: /rutgerschapter/
+title: Rutgers Chapter Members
+permalink: /rutgerschaptermembers/
 ---
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset = "utf-8">
         <link rel = "stylesheet" href = "/assets/navbar-styling.css">
-        <link rel = "stylesheet" href = "/assets/rutgerschapter-styling.css">
+        <link rel = "stylesheet" href = "/assets/rutgerschaptermembers-styling.css">
         <link rel = "stylesheet" href = "/assets/footer-styling.css">
         <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
@@ -22,29 +22,23 @@ permalink: /rutgerschapter/
     </head>
     <body>
         {% include navbar.html %}
+        
         <div class = "contain-box">
-            <h2 class = "chapters-align">Rutgers Chapter</h2>
-            <div class="wrappered adjusted-wrapper">
-                <div id="onesie">
-                  <div class = "swiper-container"> 
-                    <div class = "swiper-wrapper">
-                    <div class = "swiper-slide"> 
-                        <img class = "all-slider" src = "/assets/SJMH.png"> 
-                    </div>
-                    <div class = "swiper-slide"> 
-                        <img class = "all-slider" src = "/assets/SJMH_G1.png">
-                    </div>
-                    <div class = "swiper-slide">
-                        <img class = "all-slider" src = "/assets/SJMH_G2.png">
-                    </div>
-                    <div class = "swiper-slide">
-                        <img class = "all-slider" src = "/assets/SJMH_OpenMic.png">
-                    </div>
-                    </div>
-                    <div class = "swiper-pagination"></div>
-                    </div>
+            <h2 class = "chapters-align">Rutgers Chapter Members</h2>
+            <div class="card card-main">
+                <div class="card-header">
+                  Featured Links
                 </div>
-            </div>
+                <div class="card-body">
+                  <h5 class="card-title">Our Socials</h5>
+                  <p class="card-text">Support the Rutgers TNA Chapter by 
+                      engaging with us on our Instagram and Facebook!
+                  </p>
+                  <a href="https://linktr.ee/TNARU" class="btn btn-outline-info">Linktree</a>
+                  <a href="https://www.instagram.com/rutgerstna/" class="btn btn-outline-info">Instagram</a>
+                  <a href="https://www.facebook.com/rutgerstna" class="btn btn-outline-info">Facebook</a>
+                </div>
+              </div>
             <div class="container"> 
                 <div class="row"> 
             <div class = "card card-fix">
@@ -196,13 +190,4 @@ permalink: /rutgerschapter/
     </div>
         {% include footer.html %}
     </body>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-    var swiper1 = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
 </html>

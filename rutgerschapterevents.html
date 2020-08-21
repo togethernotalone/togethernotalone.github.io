@@ -1,0 +1,76 @@
+---
+title: Rutgers Chapter Events
+permalink: /rutgerschapterevents/
+---
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/assets/navbar-styling.css">
+        <link rel = "stylesheet" href = "/assets/rutgerschapterevents-styling.css">
+        <link rel = "stylesheet" href = "/assets/footer-styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab|Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <body>
+            {% include navbar.html %}
+            <div class = "contain-box">
+                <h2 class = "chapters-align">Rutgers Chapter Events</h2>
+
+                <div class="wrappered adjusted-wrapper">
+                    <div id="onesie">
+                      <div class = "swiper-container"> 
+                        <div class = "swiper-wrapper">
+                        <div class = "swiper-slide"> 
+                            <img class = "all-slider" src = "/assets/SJMH.png"> 
+                        </div>
+                        <div class = "swiper-slide"> 
+                            <img class = "all-slider" src = "/assets/SJMH_G1.png">
+                        </div>
+                        <div class = "swiper-slide">
+                            <img class = "all-slider" src = "/assets/SJMH_G2.png">
+                        </div>
+                        <div class = "swiper-slide">
+                            <img class = "all-slider" src = "/assets/SJMH_OpenMic.png">
+                        </div>
+                        </div>
+                        <div class = "swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div id="twosie" class = "back-1">
+                      <h2 class = "title"> Social Justice & Mental Health </h2>
+                  <p class = "info"> 
+                      Social Justice & Mental Health in Today's World is Rutgers TNA's
+                      first event for the fall! 
+                      <br>
+                      <br>
+                      It is a seminar based on realizing 
+                      the impact of racial tensions due to recent events, as well
+                      as gaining exposure to various careers overlapping
+                      between activism and mental health.
+                      <br>
+                      <br>
+                      To sign up for the event, please click <a href = "https://douglass.rutgers.edu/event/social-justice-and-mental-health-todays-world">
+                    here</a>.
+                  </p> 
+                  </div>
+    </body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper1 = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</html>
