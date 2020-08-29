@@ -18,12 +18,13 @@ permalink: /podcast/
     </head>
     <body>
         {%include navbar.html%}
-        <div class = "podcast-box">
+      <div class = "podcast-box">
             <h2 class = "pod-align"> Podcasts</h2>
-            <div class="card card-fix">
+            <div class = "cards-only">
+            <div class="card card-fix ml-3">
                 <img src = "/assets/podcast-1.png" class = "card-img-top" alt="First Podcast">
                 <div class = "card-body">
-                    <p class = "card-text deco-none">
+                    <p class = "card-text deco-none move-card">
                         Making Sense of Mental Health kicks off Project Never Alone
                         with Episode 1: Activism and Self-Care. 
                     </p>
@@ -31,8 +32,20 @@ permalink: /podcast/
                     <a href="https://anchor.fm/makingsenseofmentalhealth" class="card-link">Anchor.fm</a>
                 </div>
             </div> 
+            <div class="card card-fix ml-3">
+                <img src = "/assets/podcast-1.png" class = "card-img-top" alt="Second Podcast">
+                <div class = "card-body">
+                    <p class = "card-text deco-none">
+                        Epsiode 2: The New Normal focuses on how to mantain mental health and self-care 
+                        throughout the pandemic. Be sure to stay until the end for resources and advice!
+                    </p>
+                    <a href="https://open.spotify.com/episode/3lt7MorQmXJUfUlXPKgm9o?si=kdfmcbWsSfedPUI51LYuDA" class="card-link">Spotify</a>
+                    <a href="https://anchor.fm/makingsenseofmentalhealth/episodes/The-New-Normal-College-Edition-eiqm5a" class="card-link">Anchor.fm</a>
+                </div>
+            </div> 
         </div>
         </div>
+        </div> 
         {%include footer.html%}
-    </body>
+    </body> 
 </html>

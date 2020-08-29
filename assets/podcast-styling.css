@@ -19,10 +19,16 @@ html {
 .card-fix {
     width: 16rem; 
     text-align: center;
+    margin-top: 20px;
 }
 .pod-align {
     text-align: center;
     font-family: 'Josefin Sans', serif;
+    margin: auto;
+}
+.cards-only{
+    display: flex;
+    flex-direction: row;
 }
 .deco-none {
     color:#000000 !important;
@@ -35,10 +41,15 @@ p {
     text-align: center;
 }
 
-@media screen and (min-width: 100px) and (max-width: 500px) {
+@media screen and (min-width: 100px) and (max-width: 550px) {
     .card-fix {
         margin: 0 auto;
         float: none;
         margin-bottom: 10px;
+    }
+    .cards-only {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
     }
 }
