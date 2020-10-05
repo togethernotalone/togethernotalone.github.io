@@ -41,7 +41,7 @@ p {
     text-align: center;
 }
 
-@media screen and (min-width: 100px) and (max-width: 550px) {
+@media screen and (min-width: 450px) and (max-width: 550px) {
     .card-fix {
         margin: 0 auto;
         float: none;
@@ -51,5 +51,17 @@ p {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 450px) {
+    .card-fix {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .cards-only {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
     }
 }
