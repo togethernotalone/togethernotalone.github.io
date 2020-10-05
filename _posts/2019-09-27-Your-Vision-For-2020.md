@@ -2,7 +2,7 @@
 title: Your Vision for 2020
 layout: post
 author: Jayce
-image: "/assets/BP2.jpg"
+image: "/assets/BP12.png"
 post_description: As we look forward to the future in the midst of the pandemic, what does this new reality look like, and how do we as humans adapt to the long-term changes COV-19 has brought? 
 categories: [Challenges, Mental Health, Self-care, Acceptance]
 permalink: /:title
