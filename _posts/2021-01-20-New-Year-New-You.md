@@ -2,7 +2,7 @@
 title: Blogger Spotlight
 layout: post
 author: Monika and Sam
-image: "/assets/BP13.jpg"
+image: "/assets/BP13.png"
 post_description: Monika and Sam share advice for getting 2021 off to the right start!
 categories: [Challenges, Mental Health, Life, Self-care]
 permalink: /:title
