@@ -1,7 +1,7 @@
 ---
 title: Blogger Spotlight
 layout: post
-author: Monika and Sam
+author: Sam and Monika
 image: "/assets/BP13.png"
 post_description: Monika and Sam share advice for getting 2021 off to the right start!
 categories: [Challenges, Mental Health, Life, Self-care]
@@ -29,4 +29,3 @@ Abhyanga is a form of self-care. It is when you heat up oil (almond or coconut) 
 
 These habits are a few of the numerous rituals that help develop the mind-body-soul connection. Take this time to explore the many practices that are being followed to strengthen the connection. This link helps us understand the importance of our mental, physical, spiritual, and emotional health. It is important to make sure we always take care of ourselves as we embark into this new journey that is 2021. Wishing you all a Happy, Healthy, Safe, Prosperous and Successful New Year.   
 
-- Sam and Monika
