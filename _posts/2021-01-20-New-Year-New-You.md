@@ -1,5 +1,5 @@
 ---
-title: Blogger Spotlight
+title: New Year, New You (Habits You Can Follow for 2021)
 layout: post
 author: Sam and Monika
 image: "/assets/BP13.png"
